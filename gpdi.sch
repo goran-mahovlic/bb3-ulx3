@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:ulx3s-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -141,122 +142,6 @@ Text GLabel 8500 3500 0    60   Input ~ 0
 GPDI_SCL
 Text GLabel 8500 3600 0    60   Input ~ 0
 GPDI_SDA
-$Comp
-L Device:R R24
-U 1 1 58D92136
-P 6100 4700
-F 0 "R24" V 6180 4700 50  0000 C CNN
-F 1 "100k" V 6100 4700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 4700 50  0001 C CNN
-F 3 "" H 6100 4700 50  0000 C CNN
-F 4 "www.yageo.com" V 6100 4700 50  0001 C CNN "MNF1_URL"
-F 5 "AC0603FR-10100KL" V 6100 4700 50  0001 C CNN "MPN"
-F 6 "71-RCA0603100KJNEC" V 6100 4700 50  0001 C CNN "Mouser"
-F 7 "71-CRCW0603100KFKEAC" V 6100 4700 50  0001 C CNN "Mouse_r2"
-F 8 "P100KHCT-ND" V 6100 4700 50  0001 C CNN "Digikey"
-F 9 "C73806" V 6100 4700 50  0001 C CNN "LCSC"
-F 10 "FR003" V 6100 4700 50  0001 C CNN "Koncar"
-	1    6100 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R25
-U 1 1 58D921DD
-P 6300 4700
-F 0 "R25" V 6380 4700 50  0000 C CNN
-F 1 "4.7k" V 6300 4700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 4700 50  0001 C CNN
-F 3 "" H 6300 4700 50  0000 C CNN
-	1    6300 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R26
-U 1 1 58D92237
-P 6500 4700
-F 0 "R26" V 6580 4700 50  0000 C CNN
-F 1 "4.7k" V 6500 4700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 4700 50  0001 C CNN
-F 3 "" H 6500 4700 50  0000 C CNN
-	1    6500 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR094
-U 1 1 58D92625
-P 6300 4300
-F 0 "#PWR094" H 6300 4150 50  0001 C CNN
-F 1 "+5V" H 6300 4440 50  0000 C CNN
-F 2 "" H 6300 4300 50  0000 C CNN
-F 3 "" H 6300 4300 50  0000 C CNN
-	1    6300 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C18
-U 1 1 58D92807
-P 6100 5900
-F 0 "C18" H 6125 6000 50  0000 L CNN
-F 1 "470pF" H 6125 5800 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6138 5750 50  0001 C CNN
-F 3 "" H 6100 5900 50  0000 C CNN
-	1    6100 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR093
-U 1 1 58D92889
-P 6100 6100
-F 0 "#PWR093" H 6100 5850 50  0001 C CNN
-F 1 "GND" H 6100 5950 50  0000 C CNN
-F 2 "" H 6100 6100 50  0000 C CNN
-F 3 "" H 6100 6100 50  0000 C CNN
-	1    6100 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR092
-U 1 1 58D92B02
-P 5550 6050
-F 0 "#PWR092" H 5550 5800 50  0001 C CNN
-F 1 "GND" H 5550 5900 50  0000 C CNN
-F 2 "" H 5550 6050 50  0000 C CNN
-F 3 "" H 5550 6050 50  0000 C CNN
-	1    5550 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R23
-U 1 1 58D92CF9
-P 5050 5200
-F 0 "R23" V 5130 5200 50  0000 C CNN
-F 1 "3.3k" V 5050 5200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4980 5200 50  0001 C CNN
-F 3 "" H 5050 5200 50  0000 C CNN
-	1    5050 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R22
-U 1 1 58D92D93
-P 4900 5200
-F 0 "R22" V 4980 5200 50  0000 C CNN
-F 1 "3.3k" V 4900 5200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4830 5200 50  0001 C CNN
-F 3 "" H 4900 5200 50  0000 C CNN
-	1    4900 5200
-	1    0    0    -1  
-$EndComp
-Text GLabel 6700 5650 2    60   Input ~ 0
-GPDI_SDA
-Text GLabel 6700 5450 2    60   Input ~ 0
-GPDI_SCL
-Text GLabel 4750 5450 0    60   Input ~ 0
-FPDI_SCL
-Text GLabel 4750 5650 0    60   Input ~ 0
-FPDI_SDA
-Text Label 5700 4950 0    60   ~ 0
-VREF2
 Text GLabel 2850 2700 0    60   Input ~ 0
 FPDI_D0+
 Text GLabel 4350 2700 2    60   Input ~ 0
@@ -347,33 +232,6 @@ Wire Wire Line
 	8750 3800 8450 3800
 Wire Wire Line
 	8750 2000 8700 2000
-Wire Wire Line
-	4750 5450 5050 5450
-Wire Wire Line
-	6100 4550 6100 4450
-Wire Wire Line
-	6500 4450 6500 4550
-Wire Wire Line
-	6300 4300 6300 4450
-Connection ~ 6300 4450
-Wire Wire Line
-	6300 5450 6300 4850
-Wire Wire Line
-	6500 5650 6500 4850
-Wire Wire Line
-	6100 6050 6100 6100
-Wire Wire Line
-	5050 5450 5050 5350
-Wire Wire Line
-	4900 5050 4900 4950
-Wire Wire Line
-	4900 4950 5050 4950
-Wire Wire Line
-	5050 4950 5050 5050
-Connection ~ 5050 4950
-Connection ~ 5050 5450
-Wire Wire Line
-	6100 4450 6300 4450
 $Comp
 L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 2 1 5A07A906
@@ -406,8 +264,6 @@ Wire Wire Line
 	1450 2300 1350 2300
 Text Label 1800 2300 0    60   ~ 0
 FPDI_CEC
-Text Notes 5150 6600 0    60   ~ 0
-i2c shared with RTC\non "power" sheet
 Text Notes 1600 2850 0    60   ~ 0
 GP22 v1.7
 Text Notes 5100 2850 0    60   ~ 0
@@ -576,91 +432,8 @@ Text GLabel 2850 3600 0    60   Input ~ 0
 USB_FPGA_PULL_D+
 Text GLabel 4350 3600 2    60   Input ~ 0
 USB_FPGA_PULL_D-
-Wire Wire Line
-	6300 4450 6300 4550
-Wire Wire Line
-	6300 4450 6500 4450
-Wire Wire Line
-	5050 5450 5150 5450
 Text Notes 7350 5200 0    60   ~ 0
 PCB v1.8.1 and higher accept FCI 10029449-111RLF\nwww.amphenol-icc.com\nmouser PN: 649-10029449-111RLF\nhttp://portal.fciconnect.com/Comergent/fci/drawing/10029449.pdf\n\nPCB v1.7 and v1.8 accept\nmouser PN: 538-47151-1001 (Molex)\nhttps://www.molex.com/pdm_docs/sd/471511001_sd.pdf\nmouser PN: 710-685119134923 (Wurth)\nhttps://katalog.we-online.com/em/datasheet/685119134923.pdf
-$Comp
-L pca9306d:PCA9306D U11
-U 1 1 5B01C6B5
-P 5550 5550
-F 0 "U11" H 5300 5100 50  0000 C CNN
-F 1 "PCA9306D" H 5800 5100 50  0000 C CNN
-F 2 "SM8:SM8" H 6500 4950 50  0001 C CNN
-F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf" H 5550 5520 50  0001 C CNN
-F 4 "www.nxp.com" H 5550 5550 50  0001 C CNN "MNF1_URL"
-F 5 "PCA9306D" H 5550 5550 50  0001 C CNN "MPN"
-F 6 "771-PCA9306D-T" H 5550 5550 50  0001 C CNN "Mouser"
-F 7 "568-4215-1-ND" H 5550 5550 50  0001 C CNN "Digikey"
-F 8 "70R6428" H 5550 5550 50  0001 C CNN "Newark"
-F 9 "0.212$" H 5550 5550 50  0001 C CNN "price100_Newark"
-F 10 "Leave empty" H 5550 5550 50  0001 C CNN "LowCost"
-F 11 "FU008" H 5550 5550 50  0001 C CNN "Koncar"
-	1    5550 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5950 5450 6300 5450
-Wire Wire Line
-	5950 5650 6500 5650
-Wire Wire Line
-	6100 4850 6100 4950
-Wire Wire Line
-	5650 4950 6100 4950
-Wire Wire Line
-	5650 4950 5650 5050
-Connection ~ 6500 5650
-Wire Wire Line
-	6500 5650 6700 5650
-Connection ~ 6300 5450
-Wire Wire Line
-	6300 5450 6700 5450
-Wire Wire Line
-	4750 5650 4900 5650
-Wire Wire Line
-	4900 5350 4900 5650
-Connection ~ 4900 5650
-Wire Wire Line
-	4900 5650 5150 5650
-Wire Wire Line
-	5050 4850 5050 4950
-Wire Wire Line
-	5450 4950 5450 5050
-Wire Wire Line
-	5050 4950 5450 4950
-Text Notes 4500 4600 0    60   ~ 0
-v1.9: VCC1=3.3V EN=5V
-$Comp
-L power:+2V5 #PWR0172
-U 1 1 5B2FDB6D
-P 5050 4850
-F 0 "#PWR0172" H 5050 4700 50  0001 C CNN
-F 1 "+2V5" H 5050 5000 50  0000 C CNN
-F 2 "" H 5050 4850 50  0001 C CNN
-F 3 "" H 5050 4850 50  0001 C CNN
-	1    5050 4850
-	1    0    0    -1  
-$EndComp
-Connection ~ 6100 4950
-Wire Wire Line
-	6100 4950 6100 5750
-Wire Wire Line
-	5950 5250 6700 5250
-$Comp
-L power:+3V3 #PWR0173
-U 1 1 5B3051DB
-P 6700 5250
-F 0 "#PWR0173" H 6700 5100 50  0001 C CNN
-F 1 "+3V3" V 6700 5350 50  0000 L CNN
-F 2 "" H 6700 5250 50  0001 C CNN
-F 3 "" H 6700 5250 50  0001 C CNN
-	1    6700 5250
-	0    1    1    0   
-$EndComp
 NoConn ~ 2850 3700
 NoConn ~ 2850 3800
 NoConn ~ 4350 3700

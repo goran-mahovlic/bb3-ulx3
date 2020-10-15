@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:ulx3s-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -166,37 +167,6 @@ F 3 "" H 1400 3250 50  0000 C CNN
 	1    1400 3250
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0111
-U 1 1 58D8877C
-P 5600 4500
-F 0 "#PWR0111" H 5600 4250 50  0001 C CNN
-F 1 "GND" H 5600 4350 50  0000 C CNN
-F 2 "" H 5600 4500 50  0000 C CNN
-F 3 "" H 5600 4500 50  0000 C CNN
-	1    5600 4500
-	1    0    0    -1  
-$EndComp
-Text GLabel 5000 3100 0    60   Input ~ 0
-USB_FTDI_D-
-Text GLabel 5000 3200 0    60   Input ~ 0
-USB_FTDI_D+
-Text GLabel 6550 3300 2    60   Input ~ 0
-JTAG_TCK
-Text GLabel 6550 3500 2    60   Input ~ 0
-JTAG_TDI
-Text GLabel 6550 3100 2    60   Input ~ 0
-JTAG_TDO
-Text GLabel 6550 3400 2    60   Input ~ 0
-JTAG_TMS
-Text GLabel 6550 2800 2    60   Input ~ 0
-FTDI_TXD
-Text GLabel 6550 2900 2    60   Input ~ 0
-FTDI_RXD
-Text GLabel 6550 3000 2    60   Input ~ 0
-FTDI_nRTS
-Text GLabel 6550 3200 2    60   Input ~ 0
-FTDI_nDTR
 Text GLabel 9300 3800 2    60   Input ~ 0
 JTAG_TDI
 Text GLabel 9300 3900 2    60   Input ~ 0
@@ -207,25 +177,6 @@ Text GLabel 9300 4100 2    60   Input ~ 0
 JTAG_TMS
 Text GLabel 2150 1500 2    60   Input ~ 0
 USB5V
-$Comp
-L ftdi:FT231XS U6
-U 1 1 58EB61C6
-P 5700 3400
-F 0 "U6" H 5150 4200 50  0000 L CNN
-F 1 "FT231XS" H 6000 4200 50  0000 L CNN
-F 2 "ft231x:FT231X-SSOP-20_4.4x6.5mm_Pitch0.65mm" H 5700 3400 50  0001 C CNN
-F 3 "www.ftdichip.com/Documents/DataSheets/ICs/DS_FT231X.pdf" H 5700 3400 50  0001 C CNN
-F 4 "www.ftdichip.com" H 5700 3400 60  0001 C CNN "MNF1_URL"
-F 5 "FT231XS" H 5700 3400 60  0001 C CNN "MPN"
-F 6 "895-FT231XS-R" H 5700 3400 60  0001 C CNN "Mouser"
-F 7 "768-1129-1-ND" H 5700 3400 50  0001 C CNN "Digikey"
-F 8 "C132160" H 5700 3400 50  0001 C CNN "LCSC"
-F 9 "7570032" H 5700 3400 50  0001 C CNN "RS"
-F 10 "1.86$" H 5700 3400 50  0001 C CNN "price100_RS"
-F 11 "FU002" H 5700 3400 50  0001 C CNN "Koncar"
-	1    5700 3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1800 1700 1950 1700
 Wire Wire Line
@@ -249,74 +200,10 @@ Wire Wire Line
 Wire Wire Line
 	1800 2000 1850 2000
 Wire Wire Line
-	5600 4300 5600 4400
-Connection ~ 5600 4400
-Wire Wire Line
-	6400 3700 6450 3700
-Wire Wire Line
-	6400 3800 6550 3800
-Wire Wire Line
-	6400 3900 6550 3900
-Wire Wire Line
-	6400 4000 6550 4000
-Wire Wire Line
-	6400 2800 6550 2800
-Wire Wire Line
-	6400 2900 6550 2900
-Wire Wire Line
-	6400 3000 6550 3000
-Wire Wire Line
-	6400 3100 6550 3100
-Wire Wire Line
-	6400 3200 6550 3200
-Wire Wire Line
-	6400 3300 6550 3300
-Wire Wire Line
-	6400 3400 6550 3400
-Wire Wire Line
-	6400 3500 6550 3500
-Wire Wire Line
 	2150 1500 1950 1500
 Wire Wire Line
 	1950 1500 1950 1700
 Connection ~ 1950 1700
-Wire Wire Line
-	5600 4400 5800 4400
-Wire Wire Line
-	5800 4400 5800 4300
-Text GLabel 4850 3400 0    60   Input ~ 0
-nRESET
-Wire Wire Line
-	4850 3400 4950 3400
-$Comp
-L Device:R R9
-U 1 1 58EB9CB5
-P 4700 3600
-AR Path="/58EB9CB5" Ref="R9"  Part="1" 
-AR Path="/58D6BF46/58EB9CB5" Ref="R9"  Part="1" 
-F 0 "R9" V 4780 3600 50  0000 C CNN
-F 1 "15k" V 4700 3600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4630 3600 50  0001 C CNN
-F 3 "" H 4700 3600 50  0000 C CNN
-F 4 "www.yageo.com" V 4700 3600 50  0001 C CNN "MNF1_URL"
-F 5 "RC0603FR-0715KL" V 4700 3600 50  0001 C CNN "MPN"
-F 6 "603-RC0603FR-0715KL" V 4700 3600 50  0001 C CNN "Mouser"
-F 7 "603-RC0603FR-1015KL" V 4700 3600 50  0001 C CNN "Mouse_r2"
-F 8 "603-RC0603FR-1315KL" V 4700 3600 50  0001 C CNN "Mouse_r3"
-F 9 "YAG3569CT-ND" V 4700 3600 50  0001 C CNN "Digikey"
-F 10 "C217750" V 4700 3600 50  0001 C CNN "LCSC"
-F 11 "8.4$" V 4700 3600 50  0001 C CNN "price1500_Mouser"
-F 12 "FR005" V 4700 3600 50  0001 C CNN "Koncar"
-	1    4700 3600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4850 3600 4950 3600
-Wire Wire Line
-	4950 3600 4950 3400
-Connection ~ 4950 3400
-Wire Wire Line
-	4550 3600 4450 3600
 Text GLabel 10150 2650 2    60   Input ~ 0
 FTDI_TXD
 Text GLabel 8650 1950 0    60   Input ~ 0
@@ -369,14 +256,6 @@ Text Notes 7400 4050 0    60   ~ 0
 CBUS3=nSLEEP
 Text Notes 7400 3650 0    60   ~ 0
 FTDI default
-Text GLabel 6550 4000 2    60   Input ~ 0
-FTDI_nSLEEP
-Text GLabel 6550 3700 2    60   Input ~ 0
-FTDI_TXDEN
-Text GLabel 6550 3800 2    60   Input ~ 0
-FTDI_nRXLED
-Text GLabel 6550 3900 2    60   Input ~ 0
-FTDI_nTXLED
 Text Notes 7200 3450 0    60   ~ 0
 VNC2 programming pins:\nTXD RXD TXDEN
 Text Notes 4350 5900 0    60   ~ 0
@@ -621,38 +500,6 @@ D- 1.5k pullp for \nlow speed device\nmode USB1.0
 Text GLabel 8650 2350 0    60   Input ~ 0
 FTDI_TXDEN
 $Comp
-L Device:R R56
-U 1 1 59DFFFBE
-P 6450 4250
-AR Path="/59DFFFBE" Ref="R56"  Part="1" 
-AR Path="/58D6BF46/59DFFFBE" Ref="R56"  Part="1" 
-F 0 "R56" V 6530 4250 50  0000 C CNN
-F 1 "0" V 6450 4250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6380 4250 50  0001 C CNN
-F 3 "" H 6450 4250 50  0000 C CNN
-F 4 "Leave empty" H 6450 4250 60  0001 C CNN "Note"
-F 5 "www.yageo.com" V 6450 4250 50  0001 C CNN "MNF1_URL"
-F 6 "RC0603JR-070RL" V 6450 4250 50  0001 C CNN "EMPTY_MPN"
-	1    6450 4250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6450 4100 6450 3700
-Connection ~ 6450 3700
-$Comp
-L power:GND #PWR0112
-U 1 1 59E000AB
-P 6450 4400
-F 0 "#PWR0112" H 6450 4150 50  0001 C CNN
-F 1 "GND" H 6450 4250 50  0000 C CNN
-F 2 "" H 6450 4400 50  0000 C CNN
-F 3 "" H 6450 4400 50  0000 C CNN
-	1    6450 4400
-	1    0    0    -1  
-$EndComp
-Text Notes 6100 5000 0    60   ~ 0
-Short circuit R56\nfor chip rev A,B,C\nworkaround in \nTN140_FT231X Errata
-$Comp
 L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 5 1 5A079A7A
 P 9400 2050
@@ -737,14 +584,6 @@ F 3 "" H 5450 1150 50  0001 C CNN
 	1    5450 1150
 	1    0    0    -1  
 $EndComp
-Text GLabel 4450 3600 0    60   Input ~ 0
-FT2V5
-Text GLabel 5800 2500 1    60   Input ~ 0
-FT2V5
-Text GLabel 5000 2800 0    60   Input ~ 0
-FT2V5
-Text GLabel 5600 2500 1    60   Input ~ 0
-USB5V
 Text Notes 6300 2500 0    60   ~ 0
 WIFI_GPIO15 v1.7 WIFI_GPIO17 <v3.1
 Text GLabel 8650 2150 0    60   Input ~ 0
@@ -837,19 +676,13 @@ USB_FPGA_D-
 Text Notes 2750 5700 0    60   ~ 0
 D+,D- 15k pulldown \nfor host mode
 Wire Wire Line
-	5600 4400 5600 4500
-Wire Wire Line
 	1950 1700 2200 1700
-Wire Wire Line
-	4950 3400 5000 3400
 Wire Wire Line
 	2650 3200 2700 3200
 Wire Wire Line
 	2600 2850 3000 2850
 Wire Wire Line
 	2700 2750 3000 2750
-Wire Wire Line
-	6450 3700 6550 3700
 Wire Wire Line
 	5450 1200 5450 1250
 Wire Wire Line
