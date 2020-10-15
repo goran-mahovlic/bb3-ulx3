@@ -15,36 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:D_Schottky_Small D8
-U 1 1 58D6C83A
-P 2300 1700
-F 0 "D8" H 2350 1650 50  0000 L CNN
-F 1 "STPS2L40AF" H 1800 1650 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" V 2300 1700 60  0001 C CNN
-F 3 "" V 2300 1700 60  0000 C CNN
-F 4 "www.st.com" H 2300 1700 50  0001 C CNN "MNF1_URL"
-F 5 "STPS2L30AF" H 2300 1700 60  0001 C CNN "MPN"
-F 6 "511-STPS2L40AF" H 2300 1700 60  0001 C CNN "Mouser"
-F 7 "497-12310-1-ND" H 2300 1700 50  0001 C CNN "Digikey"
-F 8 "STPS2L30AF" H 2300 1700 50  0001 C CNN "AvnetEU"
-F 9 "C111630" H 2300 1700 50  0001 C CNN "LCSC"
-F 10 "0.22121$" H 2300 1700 50  0001 C CNN "price100_AvnetEU"
-F 11 "FV008" H 2300 1700 50  0001 C CNN "Koncar"
-	1    2300 1700
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+5V #PWR0107
-U 1 1 58D6C83B
-P 2800 1700
-F 0 "#PWR0107" H 2800 1550 50  0001 C CNN
-F 1 "+5V" H 2800 1840 50  0000 C CNN
-F 2 "" H 2800 1700 60  0000 C CNN
-F 3 "" H 2800 1700 60  0000 C CNN
-	1    2800 1700
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:Jumper_NC_Small D9
 U 1 1 58D6C83C
 P 2650 2650
@@ -73,35 +43,6 @@ F 3 "" H 2800 2650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L usb_otg:USB_OTG US1
-U 1 1 58D6C840
-P 1500 1900
-AR Path="/58D6C840" Ref="US1"  Part="1" 
-AR Path="/58D6BF46/58D6C840" Ref="US1"  Part="1" 
-F 0 "US1" V 1200 1900 50  0000 C CNN
-F 1 "MICRO_USB" H 1500 2100 50  0000 C CNN
-F 2 "usb_otg:USB-MICRO-B-FCI-10118192-0001LF" V 1450 1800 50  0001 C CNN
-F 3 "http://portal.fciconnect.com/Comergent/fci/drawing/10118192.pdf" H 1450 1800 50  0001 C CNN
-F 4 "FCI" H 1500 1900 50  0001 C CNN "MFG1"
-F 5 "www.fciconnect.com" H 1500 1900 60  0001 C CNN "MNF1_URL"
-F 6 "10118192-0001LF" H 1500 1900 60  0001 C CNN "MPN"
-F 7 "https://www.molex.com/pdm_docs/sd/473460001_sd.pdf" H 1500 1900 50  0001 C CNN "Datasheet2"
-F 8 "Molex" H 1500 1900 50  0001 C CNN "MFG2"
-F 9 "www.molex.com" H 1500 1900 50  0001 C CNN "MNF2_URL"
-F 10 "47346-0001" H 1500 1900 50  0001 C CNN "MPN2"
-F 11 "538-47346-0001" H 1500 1900 50  0001 C CNN "Mouser"
-F 12 "649-10118192-0001LF " H 1500 1900 50  0001 C CNN "Mouse_r1"
-F 13 "609-4613-1-ND" H 1500 1900 50  0001 C CNN "Digikey"
-F 14 "WM17141CT-ND" H 1500 1900 50  0001 C CNN "Digikey2"
-F 15 "C132564" V 1500 1900 50  0001 C CNN "LCSC"
-F 16 "10118192-0001LF" V 1500 1900 50  0001 C CNN "FreelanceElec"
-F 17 "0.12487$" V 1500 1900 50  0001 C CNN "price200_FreelanceElec"
-F 18 "FU010" V 1500 1900 50  0001 C CNN "Koncar"
-F 19 "T" V 1500 1900 50  0001 C CNN "Side"
-	1    1500 1900
-	0    -1   1    0   
-$EndComp
-$Comp
 L usb_otg:USB_OTG US2
 U 1 1 58D6C841
 P 1500 2850
@@ -115,17 +56,6 @@ F 3 "portal.fciconnect.com/Comergent/fci/drawing/10118192.pdf" H 1450 2750 50  0
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR0104
-U 1 1 58D6C842
-P 1850 2100
-F 0 "#PWR0104" H 1850 1850 50  0001 C CNN
-F 1 "GND" H 1850 1950 50  0000 C CNN
-F 2 "" H 1850 2100 50  0000 C CNN
-F 3 "" H 1850 2100 50  0000 C CNN
-	1    1850 2100
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR0105
 U 1 1 58D6C843
 P 2150 3050
@@ -136,26 +66,10 @@ F 3 "" H 2150 3050 50  0000 C CNN
 	1    2150 3050
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3000 1800 2    60   Input ~ 0
-USB_FTDI_D-
-Text GLabel 3000 1900 2    60   Input ~ 0
-USB_FTDI_D+
 Text GLabel 3000 2750 2    60   Input ~ 0
 USB_FPGA_D-
 Text GLabel 3000 2850 2    60   Input ~ 0
 USB_FPGA_D+
-NoConn ~ 1850 2000
-$Comp
-L power:GND #PWR0102
-U 1 1 58D82518
-P 1400 2300
-F 0 "#PWR0102" H 1400 2050 50  0001 C CNN
-F 1 "GND" H 1400 2150 50  0000 C CNN
-F 2 "" H 1400 2300 50  0000 C CNN
-F 3 "" H 1400 2300 50  0000 C CNN
-	1    1400 2300
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 58D8254A
@@ -175,35 +89,16 @@ Text GLabel 9300 4000 2    60   Input ~ 0
 JTAG_TCK
 Text GLabel 9300 4100 2    60   Input ~ 0
 JTAG_TMS
-Text GLabel 2150 1500 2    60   Input ~ 0
-USB5V
-Wire Wire Line
-	1800 1700 1950 1700
-Wire Wire Line
-	2400 1700 2800 1700
 Wire Wire Line
 	2750 2650 2800 2650
 Wire Wire Line
 	1800 2650 2550 2650
 Wire Wire Line
-	1800 2100 1850 2100
-Wire Wire Line
 	1800 3050 2150 3050
-Wire Wire Line
-	1800 1800 2150 1800
-Wire Wire Line
-	1800 1900 2150 1900
 Wire Wire Line
 	1800 2750 2150 2750
 Wire Wire Line
 	1800 2850 2150 2850
-Wire Wire Line
-	1800 2000 1850 2000
-Wire Wire Line
-	2150 1500 1950 1500
-Wire Wire Line
-	1950 1500 1950 1700
-Connection ~ 1950 1700
 Text GLabel 10150 2650 2    60   Input ~ 0
 FTDI_TXD
 Text GLabel 8650 1950 0    60   Input ~ 0
@@ -324,48 +219,6 @@ Wire Wire Line
 	9650 4900 10100 4900
 Wire Wire Line
 	8700 4900 9150 4900
-$Comp
-L Device:R R49
-U 1 1 59274246
-P 2300 1800
-AR Path="/59274246" Ref="R49"  Part="1" 
-AR Path="/58D6BF46/59274246" Ref="R49"  Part="1" 
-F 0 "R49" V 2250 2000 50  0000 C CNN
-F 1 "27" V 2300 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2230 1800 50  0001 C CNN
-F 3 "" H 2300 1800 50  0000 C CNN
-F 4 "www.yageo.com" V 2300 1800 50  0001 C CNN "MNF1_URL"
-F 5 "AC0603JR-0727RL" V 2300 1800 50  0001 C CNN "MPN"
-F 6 "603-AC0603JR-0727RL" V 2300 1800 50  0001 C CNN "Mouser"
-F 7 "311-27.0HRCT-ND" V 2300 1800 50  0001 C CNN "Digikey"
-F 8 "C325726" V 2300 1800 50  0001 C CNN "LCSC"
-F 9 "FR008" V 2300 1800 50  0001 C CNN "Koncar"
-	1    2300 1800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R50
-U 1 1 592743C8
-P 2300 1900
-AR Path="/592743C8" Ref="R50"  Part="1" 
-AR Path="/58D6BF46/592743C8" Ref="R50"  Part="1" 
-F 0 "R50" V 2250 2100 50  0000 C CNN
-F 1 "27" V 2300 1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2230 1900 50  0001 C CNN
-F 3 "" H 2300 1900 50  0000 C CNN
-F 4 "www.yageo.com" V 2300 1900 50  0001 C CNN "MNF1_URL"
-F 5 "AC0603JR-0727RL" V 2300 1900 50  0001 C CNN "MPN"
-	1    2300 1900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2450 1800 3000 1800
-Wire Wire Line
-	2450 1900 3000 1900
-Text Label 1850 1800 0    60   ~ 0
-FTD-
-Text Label 1850 1900 0    60   ~ 0
-FTD+
 Text Notes 2850 3250 0    60   ~ 0
 USB_FPGA connected to\nBANK1 on "gpdi" sheet and\nBANK2 on "ram" sheet
 $Comp
@@ -462,20 +315,6 @@ Connection ~ 2600 2850
 Connection ~ 2700 2750
 Text GLabel 8650 2550 0    60   Input ~ 0
 WIFI_GPIO26
-$Comp
-L Device:Antenna AE1
-U 1 1 59C3AE47
-P 10950 1350
-AR Path="/59C3AE47" Ref="AE1"  Part="1" 
-AR Path="/58D6BF46/59C3AE47" Ref="AE1"  Part="1" 
-F 0 "AE1" H 10875 1425 50  0000 R CNN
-F 1 "433MHz" H 10875 1350 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10950 1350 50  0001 C CNN
-F 3 "" H 10950 1350 50  0001 C CNN
-F 4 "Leave empty" H 10950 1350 60  0001 C CNN "Note"
-	1    10950 1350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10150 1350 10750 1350
 Text Label 10200 1350 0    60   ~ 0
@@ -675,8 +514,6 @@ Text GLabel 2750 5450 2    60   Input ~ 0
 USB_FPGA_D-
 Text Notes 2750 5700 0    60   ~ 0
 D+,D- 15k pulldown \nfor host mode
-Wire Wire Line
-	1950 1700 2200 1700
 Wire Wire Line
 	2650 3200 2700 3200
 Wire Wire Line
