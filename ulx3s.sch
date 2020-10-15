@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 15
 Title "ULX3S"
 Date ""
 Rev "3.1.2"
@@ -172,5 +172,35 @@ S 10400 5250 750  450
 U 58DA7327
 F0 "serdes" 60
 F1 "serdes.sch" 60
+$EndSheet
+$Sheet
+S 7250 1000 650  500 
+U 5F88BD9A
+F0 "Envox_STM32" 60
+F1 "STM32F7_MCU.sch" 60
+$EndSheet
+$Sheet
+S 8700 1000 650  500 
+U 5F8FA164
+F0 "Envox SDRAM" 60
+F1 "SDRAM_JTAG_SD_card_EEPROM.sch" 60
+$EndSheet
+$Sheet
+S 7250 1850 650  500 
+U 5F8FBDC2
+F0 "TFT_LCD" 60
+F1 "TFT_LCD_Audio_USB.sch" 60
+$EndSheet
+$Sheet
+S 8700 1850 650  500 
+U 5F8FDB74
+F0 "IO_Connectors" 60
+F1 "IO_connectors_Encoder_user_SW.sch" 60
+$EndSheet
+$Sheet
+S 7250 2750 650  500 
+U 5F8FF86F
+F0 "Ethernet" 60
+F1 "Ethernet_PHY.sch" 60
 $EndSheet
 $EndSCHEMATC

@@ -1,0 +1,12 @@
+(module SHORT_NOHOLE (layer F.Cu) (tedit 0)
+  (fp_text reference SH1 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_text value "" (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (pad P$1 smd roundrect (at 0 -0.1175 180) (size 0.5 0.25) (layers B.Cu B.Mask) (roundrect_rratio 0.2032)
+    (solder_mask_margin 0.0635) (zone_connect 2))
+  (pad P$2 smd roundrect (at 0 0.1175 180) (size 0.5 0.25) (layers B.Cu B.Mask) (roundrect_rratio 0.2032)
+    (solder_mask_margin 0.0635) (zone_connect 2))
+)

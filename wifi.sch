@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 11
+Sheet 7 15
 Title "ULX3S"
 Date ""
 Rev "1.0.8"
