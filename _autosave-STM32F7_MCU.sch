@@ -172,7 +172,7 @@ ENC_B
 Wire Wire Line
 	3600 3400 4300 3400
 Text GLabel 4300 3400 0    50   BiDi ~ 0
-SDMMC1_D0
+SDMMC1_TO_FPGA_D0
 Wire Wire Line
 	3600 3500 4300 3500
 Text GLabel 4300 3500 0    50   BiDi ~ 0
@@ -180,7 +180,7 @@ MCLK_25
 Wire Wire Line
 	3600 3800 4300 3800
 Text GLabel 4300 3800 0    50   BiDi ~ 0
-SDMMC1_CK
+SDMMC1_TO_FPGA_CK
 Wire Wire Line
 	3600 3900 4300 3900
 Text GLabel 4300 3900 0    50   BiDi ~ 0
