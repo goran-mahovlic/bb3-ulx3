@@ -281,19 +281,19 @@ Text GLabel 7700 1800 0    10   BiDi ~ 0
 +3V3
 Wire Wire Line
 	2600 4200 2000 4200
-Text GLabel 2000 4200 2    50   BiDi ~ 0
+Text GLabel 2000 4200 0    50   BiDi ~ 0
 FMC_SDNRAS
 Wire Wire Line
 	2600 4300 2000 4300
-Text GLabel 2000 4300 2    50   BiDi ~ 0
+Text GLabel 2000 4300 0    50   BiDi ~ 0
 FMC_SDNCAS
 Wire Wire Line
 	2600 4400 2000 4400
-Text GLabel 2000 4400 2    50   BiDi ~ 0
+Text GLabel 2000 4400 0    50   BiDi ~ 0
 FMC_SDNWE
 Wire Wire Line
 	2600 4500 2000 4500
-Text GLabel 2000 4500 2    50   BiDi ~ 0
+Text GLabel 2000 4500 0    50   BiDi ~ 0
 FMC_SDNE0
 Wire Wire Line
 	4200 3200 3800 3200
@@ -401,11 +401,11 @@ Text GLabel 2200 1700 2    50   BiDi ~ 0
 FMC_A0
 Wire Wire Line
 	2600 3100 2000 3100
-Text GLabel 2000 3100 2    50   BiDi ~ 0
+Text GLabel 2000 3100 0    50   BiDi ~ 0
 FMC_BA0
 Wire Wire Line
 	2600 3200 2000 3200
-Text GLabel 2000 3200 2    50   BiDi ~ 0
+Text GLabel 2000 3200 0    50   BiDi ~ 0
 FMC_BA1
 Wire Wire Line
 	2200 2700 2600 2700
@@ -413,19 +413,19 @@ Text GLabel 2200 2700 2    50   BiDi ~ 0
 FMC_A10
 Wire Wire Line
 	2600 3700 2000 3700
-Text GLabel 2000 3700 2    50   BiDi ~ 0
+Text GLabel 2000 3700 0    50   BiDi ~ 0
 FMC_NBL1
 Wire Wire Line
 	2600 3800 2000 3800
-Text GLabel 2000 3800 2    50   BiDi ~ 0
+Text GLabel 2000 3800 0    50   BiDi ~ 0
 FMC_NBL0
 Wire Wire Line
 	2600 5000 2000 5000
-Text GLabel 2000 5000 2    50   BiDi ~ 0
+Text GLabel 2000 5000 0    50   BiDi ~ 0
 FMC_SDCKE0
 Wire Wire Line
 	2600 4900 2000 4900
-Text GLabel 2000 4900 2    50   BiDi ~ 0
+Text GLabel 2000 4900 0    50   BiDi ~ 0
 FMC_SDCLK
 Wire Wire Line
 	6200 2400 5500 2400
@@ -459,38 +459,22 @@ Text GLabel 5500 2800 2    50   BiDi ~ 0
 Connection ~ 7000 2800
 Wire Wire Line
 	5900 4500 5300 4500
-Text GLabel 5300 4500 2    50   BiDi ~ 0
+Text GLabel 5300 4500 0    50   BiDi ~ 0
 I2C1_SDA
 Wire Wire Line
 	5900 4400 5300 4400
-Text GLabel 5300 4400 2    50   BiDi ~ 0
+Text GLabel 5300 4400 0    50   BiDi ~ 0
 I2C1_SCL
 Wire Wire Line
 	9900 5100 8000 5100
 Text GLabel 8000 5100 2    50   BiDi ~ 0
-SD_DETECT
-Wire Wire Line
-	8700 4800 8000 4800
-Wire Wire Line
-	8700 4300 8700 4800
+SD_FROM_FPGA_DETECT
 Wire Wire Line
 	8700 4800 9900 4800
-Text GLabel 8000 4800 2    50   BiDi ~ 0
-SDMMC1_D0
-Connection ~ 8700 4800
-Wire Wire Line
-	8800 4400 8000 4400
 Wire Wire Line
 	8800 4300 8800 4400
 Wire Wire Line
 	9900 4400 8800 4400
-Text GLabel 8000 4400 2    50   BiDi ~ 0
-SDMMC1_CMD
-Connection ~ 8800 4400
-Wire Wire Line
-	8000 4600 9900 4600
-Text GLabel 8000 4600 2    50   BiDi ~ 0
-SDMMC1_CK
 Wire Wire Line
 	8100 2400 7100 2400
 Wire Wire Line
@@ -1276,8 +1260,24 @@ F 3 "" H 8200 2700 50  0001 C CNN
 	6    8200 2700
 	-1   0    0    -1  
 $EndComp
-Wire Bus Line
-	2100 1500 2100 2800
+Connection ~ 8700 4800
+Wire Wire Line
+	8700 4800 8000 4800
+Wire Wire Line
+	8000 4600 9900 4600
+Wire Wire Line
+	8700 4300 8700 4800
 Wire Bus Line
 	4300 1300 4300 3100
+Wire Bus Line
+	2100 1500 2100 2800
+Connection ~ 8800 4400
+Wire Wire Line
+	8800 4400 8000 4400
+Text GLabel 8000 4400 2    50   BiDi ~ 0
+SDMMC1_FROM_FPGA_CMD
+Text GLabel 8000 4800 2    50   BiDi ~ 0
+SDMMC1_FROM_FPGA_D0
+Text GLabel 8000 4600 2    50   BiDi ~ 0
+SDMMC1_FROM_FPGA_CK
 $EndSCHEMATC
