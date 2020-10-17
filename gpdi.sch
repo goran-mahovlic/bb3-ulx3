@@ -436,4 +436,12 @@ PCB v1.8.1 and higher accept FCI 10029449-111RLF\nwww.amphenol-icc.com\nmouser P
 NoConn ~ 2850 3700
 NoConn ~ 2850 3800
 NoConn ~ 4350 3700
+Text GLabel 1900 4850 0    50   BiDi ~ 0
+SD_FROM_FPGA_DETECT
+Text GLabel 1900 4550 0    50   BiDi ~ 0
+SDMMC1_FROM_FPGA_CMD
+Text GLabel 1900 4750 0    50   BiDi ~ 0
+SDMMC1_FROM_FPGA_D0
+Text GLabel 1900 4650 0    50   BiDi ~ 0
+SDMMC1_FROM_FPGA_CK
 $EndSCHEMATC
