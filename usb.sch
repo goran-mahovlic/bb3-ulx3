@@ -592,21 +592,15 @@ Text GLabel 10150 1650 2    60   Input ~ 0
 WIFI_GPIO22
 Text GLabel 8650 1650 0    60   Input ~ 0
 OLED_BL
-Text GLabel 7050 1750 0    60   Input ~ 0
+Text GLabel 7050 2450 0    60   Input ~ 0
 LTDC_FROM_FPGA_B3
-Text GLabel 7050 1850 0    60   Input ~ 0
+Text GLabel 7050 2550 0    60   Input ~ 0
 LTDC_FROM_FPGA_B4
-Text GLabel 7050 1950 0    60   Input ~ 0
-LTDC_FROM_FPGA_B5
-Text GLabel 7050 2050 0    60   Input ~ 0
+Text GLabel 7050 2650 0    60   Input ~ 0
 LTDC_FROM_FPGA_B6
-Text GLabel 7050 2150 0    60   Input ~ 0
-LTDC_FROM_FPGA_B7
 Text GLabel 11800 1750 2    60   Input ~ 0
 LTDC_FROM_FPGA_R7
-Text GLabel 11800 2150 2    60   Input ~ 0
-LTDC_FROM_FPGA_R3
-Text GLabel 11800 2050 2    60   Input ~ 0
+Text GLabel 11800 1650 2    60   Input ~ 0
 LTDC_FROM_FPGA_R4
 Text GLabel 11800 1950 2    60   Input ~ 0
 LTDC_FROM_FPGA_R5
@@ -614,23 +608,19 @@ Text GLabel 11800 1850 2    60   Input ~ 0
 LTDC_FROM_FPGA_R6
 Text GLabel 7050 1650 0    60   Input ~ 0
 LTDC_FROM_FPGA_CLK
-Text GLabel 11800 1550 2    60   Input ~ 0
-LTDC_FROM_FPGA_VSYNC
-Text GLabel 11800 1650 2    60   Input ~ 0
-LTDC_FROM_FPGA_HSYNC
 Text GLabel 11800 2250 2    60   Input ~ 0
 LTDC_FROM_FPGA_DE
-Text GLabel 7050 2350 0    60   Input ~ 0
+Text GLabel 7050 2150 0    60   Input ~ 0
 LTDC_FROM_FPGA_G7
-Text GLabel 7050 2450 0    60   Input ~ 0
+Text GLabel 7050 2050 0    60   Input ~ 0
 LTDC_FROM_FPGA_G6
-Text GLabel 7050 2550 0    60   Input ~ 0
+Text GLabel 7050 1950 0    60   Input ~ 0
 LTDC_FROM_FPGA_G5
-Text GLabel 7050 2650 0    60   Input ~ 0
+Text GLabel 7050 1850 0    60   Input ~ 0
 LTDC_FROM_FPGA_G4
-Text GLabel 7050 2750 0    60   Input ~ 0
+Text GLabel 7050 1750 0    60   Input ~ 0
 LTDC_FROM_FPGA_G3
-Text GLabel 7050 2850 0    60   Input ~ 0
+Text GLabel 7050 2350 0    60   Input ~ 0
 LTDC_FROM_FPGA_G2
 Text GLabel 7150 1650 2    60   Input ~ 0
 OLED_BL
@@ -680,8 +670,6 @@ Wire Wire Line
 	7050 2750 7150 2750
 Wire Wire Line
 	7150 2850 7050 2850
-Text GLabel 11700 1550 0    60   Input ~ 0
-WIFI_RXD
 Text GLabel 11700 1650 0    60   Input ~ 0
 WIFI_GPIO22
 Text GLabel 11700 1750 0    60   Input ~ 0
@@ -690,14 +678,8 @@ Text GLabel 11700 1850 0    60   Input ~ 0
 SD_CMD
 Text GLabel 11700 1950 0    60   Input ~ 0
 FTDI_nRXLED
-Text GLabel 11700 2050 0    60   Input ~ 0
-WIFI_GPIO21
-Text GLabel 11700 2150 0    60   Input ~ 0
-SD_WP
 Text GLabel 11700 2250 0    60   Input ~ 0
 SD_CD
-Wire Wire Line
-	11700 1550 11800 1550
 Wire Wire Line
 	11800 1650 11700 1650
 Wire Wire Line
@@ -707,9 +689,11 @@ Wire Wire Line
 Wire Wire Line
 	11700 1950 11800 1950
 Wire Wire Line
-	11700 2050 11800 2050
-Wire Wire Line
-	11800 2150 11700 2150
-Wire Wire Line
 	11700 2250 11800 2250
+Text GLabel 10750 1350 2    60   Input ~ 0
+LTDC_FROM_FPGA_R3
+Text GLabel 7050 2750 0    60   Input ~ 0
+LTDC_FROM_FPGA_B5
+Text GLabel 7050 2850 0    60   Input ~ 0
+LTDC_FROM_FPGA_B7
 $EndSCHEMATC

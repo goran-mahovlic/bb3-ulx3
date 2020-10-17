@@ -433,10 +433,6 @@ Text GLabel 6500 3800 0    60   Input ~ 0
 BTN_F1
 Text GLabel 8000 3800 2    60   Input ~ 0
 BTN_F2
-Text GLabel 8000 3900 2    60   Input ~ 0
-BTN_D
-Text GLabel 6500 3900 0    60   Input ~ 0
-BTN_L
 Text Notes 4700 1950 0    60   ~ 0
 pullups to allow entering USER mode\nTN1260: lattice ECP5 sysCONFIG guide p.6, p.8, p.13
 $Comp
@@ -518,4 +514,20 @@ Text Notes 4000 3800 0    60   ~ 0
 USER_PROGRAMN\non "usb" sheet
 Text Notes 4100 3300 0    60   ~ 0
 PWRBTn\non "power" sheet
+Text GLabel 8400 3250 2    60   Input ~ 0
+LTDC_FROM_FPGA_HSYNC
+Text GLabel 8000 3900 2    60   Input ~ 0
+BTN_D
+Text GLabel 6500 3900 0    60   Input ~ 0
+BTN_L
+Text GLabel 8400 3150 2    60   Input ~ 0
+LTDC_FROM_FPGA_VSYNC
+Text GLabel 8300 3250 0    60   Input ~ 0
+BTN_L
+Text GLabel 8300 3150 0    60   Input ~ 0
+BTN_D
+Wire Wire Line
+	8300 3150 8400 3150
+Wire Wire Line
+	8400 3250 8300 3250
 $EndSCHEMATC

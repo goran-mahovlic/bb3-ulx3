@@ -243,7 +243,7 @@ Text GLabel 5000 4300 2    50   BiDi ~ 0
 FMC_A0
 Wire Wire Line
 	7100 4000 7700 4000
-Text GLabel 7700 4000 0    50   BiDi ~ 0
+Text GLabel 7150 4000 2    50   BiDi ~ 0
 SD_TO_FPGA_DETECT
 Wire Wire Line
 	5300 5000 5000 5000
@@ -265,21 +265,15 @@ Wire Wire Line
 	5900 5400 5100 5400
 Text GLabel 5100 5400 2    50   BiDi ~ 0
 FMC_SDNRAS
-Wire Wire Line
-	7100 2900 7700 2900
-Text GLabel 7700 2900 0    50   BiDi ~ 0
+Text GLabel 7250 2900 2    50   BiDi ~ 0
 PWR_SSTART
-Wire Wire Line
-	7100 3000 7700 3000
-Text GLabel 7700 3000 0    50   BiDi ~ 0
+Text GLabel 7250 3000 2    50   BiDi ~ 0
 FMC_BA0
-Wire Wire Line
-	7100 3100 7700 3100
-Text GLabel 7700 3100 0    50   BiDi ~ 0
+Text GLabel 7250 3100 2    50   BiDi ~ 0
 FMC_BA1
 Wire Wire Line
 	7100 3300 7700 3300
-Text GLabel 7700 3300 0    50   BiDi ~ 0
+Text GLabel 7100 3300 2    50   BiDi ~ 0
 LTDC_TO_FPGA_CLK
 Wire Wire Line
 	7100 3400 7700 3400
@@ -288,7 +282,7 @@ FMC_SDCLK
 Wire Wire Line
 	7100 4100 7700 4100
 Text GLabel 7700 4100 0    50   BiDi ~ 0
-FMC_TO_FPGA_SDNCAS
+FMC_SDNCAS
 Wire Wire Line
 	7100 4300 8300 4300
 Wire Wire Line
@@ -345,7 +339,7 @@ Text GLabel 8100 3600 2    50   BiDi ~ 0
 LTDC_TO_FPGA_HSYNC
 Wire Wire Line
 	8900 3700 8000 3700
-Text GLabel 8000 3700 2    50   BiDi ~ 0
+Text GLabel 8800 3700 0    50   BiDi ~ 0
 LTDC_TO_FPGA_G6
 Wire Wire Line
 	10100 2700 10700 2700
@@ -441,8 +435,6 @@ Wire Wire Line
 	7100 2600 7700 2600
 Text GLabel 7700 2600 0    50   BiDi ~ 0
 FMC_A10
-Wire Wire Line
-	7100 2700 7700 2700
 Text GLabel 7700 2700 0    50   BiDi ~ 0
 FMC_A11
 Wire Wire Line
@@ -503,7 +495,7 @@ Text GLabel 4100 5800 0    50   BiDi ~ 0
 FMC_D1
 Wire Wire Line
 	7100 3200 7800 3200
-Text GLabel 7800 3200 0    50   BiDi ~ 0
+Text GLabel 7150 3200 2    50   BiDi ~ 0
 LTDC_TO_FPGA_R7
 Wire Wire Line
 	8900 2600 8000 2600
@@ -523,15 +515,15 @@ Text GLabel 4400 4600 0    50   BiDi ~ 0
 LTDC_TO_FPGA_G7
 Wire Wire Line
 	7100 3600 7800 3600
-Text GLabel 7800 3600 0    50   BiDi ~ 0
+Text GLabel 7150 3600 2    50   BiDi ~ 0
 LTDC_TO_FPGA_G3
 Wire Wire Line
 	7100 3700 7800 3700
-Text GLabel 7800 3700 0    50   BiDi ~ 0
+Text GLabel 7150 3700 2    50   BiDi ~ 0
 LTDC_TO_FPGA_B3
 Wire Wire Line
 	7100 3800 7800 3800
-Text GLabel 7800 3800 0    50   BiDi ~ 0
+Text GLabel 7150 3800 2    50   BiDi ~ 0
 LTDC_TO_FPGA_B4
 Wire Wire Line
 	8900 3100 8000 3100
@@ -963,7 +955,7 @@ Text GLabel 5250 3200 0    50   BiDi ~ 0
 SPI4_TO_FPGA_MOSI
 Wire Wire Line
 	7100 3900 7700 3900
-Text GLabel 7700 3900 0    50   BiDi ~ 0
+Text GLabel 7150 3900 2    50   BiDi ~ 0
 SPI5_TO_FPGA_CSB
 Wire Wire Line
 	5300 4900 5000 4900
@@ -1042,8 +1034,6 @@ Wire Wire Line
 	3600 4900 4300 4900
 Text GLabel 4300 4900 0    50   BiDi ~ 0
 PWR_DIRECT
-Wire Wire Line
-	7700 2800 7100 2800
 Text GLabel 7700 2800 0    50   BiDi ~ 0
 FMC_A12
 Wire Wire Line
@@ -2561,6 +2551,16 @@ Wire Wire Line
 	5300 3100 5900 3100
 Wire Wire Line
 	5250 3200 5300 3200
+Wire Wire Line
+	7100 3100 7250 3100
+Wire Wire Line
+	7100 2700 7700 2700
+Wire Wire Line
+	7700 2800 7100 2800
+Wire Wire Line
+	7100 2900 7250 2900
+Wire Wire Line
+	7250 3000 7100 3000
 Wire Bus Line
 	4500 2300 4500 4500
 Wire Bus Line
