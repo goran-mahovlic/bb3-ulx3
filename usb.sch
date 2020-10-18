@@ -100,26 +100,14 @@ Wire Wire Line
 	1800 2850 2150 2850
 Text GLabel 10150 2650 2    60   Input ~ 0
 FTDI_TXD
-Text GLabel 8650 1950 0    60   Input ~ 0
-FTDI_RXD
 Text GLabel 10150 2450 2    60   Input ~ 0
 FTDI_nRTS
 Text GLabel 10150 2550 2    60   Input ~ 0
 FTDI_nDTR
-Text GLabel 8650 2050 0    60   Input ~ 0
-WIFI_TXD
-Text GLabel 10150 1550 2    60   Input ~ 0
-WIFI_RXD
 Text GLabel 10150 2350 2    60   Input ~ 0
 WIFI_GPIO0
 Text GLabel 10150 1450 2    60   Input ~ 0
 WIFI_EN
-Text GLabel 10150 2850 2    60   Input ~ 0
-OLED_RES
-Text GLabel 8650 2750 0    60   Input ~ 0
-OLED_MOSI
-Text GLabel 10150 2750 2    60   Input ~ 0
-OLED_CLK
 Text GLabel 8650 2850 0    60   Input ~ 0
 OLED_DC
 Text GLabel 8650 2650 0    60   Input ~ 0
@@ -312,12 +300,6 @@ Wire Wire Line
 Connection ~ 2650 3200
 Connection ~ 2600 2850
 Connection ~ 2700 2750
-Text GLabel 8650 2550 0    60   Input ~ 0
-WIFI_GPIO26
-Wire Wire Line
-	10150 1350 10750 1350
-Text Label 10200 1350 0    60   ~ 0
-ANT_433MHz
 Text Notes 650  4100 0    60   ~ 0
 D8,D9: Schottky 2A/30V \nLow drop Vfmax=0.375V\nParts reduction: Only D8 is required.\nD9 D51 D52 can be 1206\n1A polyfuses or 0-ohm/2A jumpers
 $Comp
@@ -335,8 +317,6 @@ F 3 "" H 2250 5250 50  0000 C CNN
 $EndComp
 Text Notes 2750 5350 0    60   ~ 0
 D- 1.5k pullp for \nlow speed device\nmode USB1.0
-Text GLabel 8650 2350 0    60   Input ~ 0
-FTDI_TXDEN
 $Comp
 L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 5 1 5A079A7A
@@ -559,8 +539,6 @@ F 4 "1N4148WS" H 1950 5250 50  0001 C CNN "MPN"
 $EndComp
 Text Label 1850 2650 0    60   ~ 0
 US2VBUS
-Text GLabel 8650 1750 0    60   Input ~ 0
-SD_D1
 Text Notes 750  6050 0    60   ~ 0
 Deviation from USB specification in\npulldowns for BOM simplificaton.\nWith series diode, correct value R63 R64 \nshould be 12k but 15k is used.
 Wire Notes Line
@@ -586,114 +564,40 @@ USER_PROGRAMN
 NoConn ~ 8650 2950
 Text GLabel 10150 1950 2    60   Input ~ 0
 FTDI_nRXLED
-Text GLabel 10150 2050 2    60   Input ~ 0
-WIFI_GPIO21
-Text GLabel 10150 1650 2    60   Input ~ 0
-WIFI_GPIO22
 Text GLabel 8650 1650 0    60   Input ~ 0
 OLED_BL
-Text GLabel 7050 2450 0    60   Input ~ 0
+Text GLabel 10150 2850 2    60   Input ~ 0
 LTDC_FROM_FPGA_B3
-Text GLabel 7050 2550 0    60   Input ~ 0
-LTDC_FROM_FPGA_B4
-Text GLabel 7050 2650 0    60   Input ~ 0
+Text GLabel 10150 2750 2    60   Input ~ 0
 LTDC_FROM_FPGA_B6
-Text GLabel 11800 1750 2    60   Input ~ 0
-LTDC_FROM_FPGA_R7
-Text GLabel 11800 1650 2    60   Input ~ 0
+Text GLabel 10200 1350 2    60   Input ~ 0
 LTDC_FROM_FPGA_R4
-Text GLabel 11800 1950 2    60   Input ~ 0
-LTDC_FROM_FPGA_R5
-Text GLabel 11800 1850 2    60   Input ~ 0
+Text GLabel 8650 1750 0    60   Input ~ 0
 LTDC_FROM_FPGA_R6
-Text GLabel 7050 1650 0    60   Input ~ 0
+Text GLabel 6200 1650 0    60   Input ~ 0
 LTDC_FROM_FPGA_CLK
 Text GLabel 11800 2250 2    60   Input ~ 0
 LTDC_FROM_FPGA_DE
-Text GLabel 7050 2150 0    60   Input ~ 0
+Text GLabel 8650 2550 0    60   Input ~ 0
 LTDC_FROM_FPGA_G7
-Text GLabel 7050 2050 0    60   Input ~ 0
+Text GLabel 8650 1950 0    60   Input ~ 0
 LTDC_FROM_FPGA_G6
-Text GLabel 7050 1950 0    60   Input ~ 0
+Text GLabel 10150 1550 2    60   Input ~ 0
 LTDC_FROM_FPGA_G5
-Text GLabel 7050 1850 0    60   Input ~ 0
-LTDC_FROM_FPGA_G4
-Text GLabel 7050 1750 0    60   Input ~ 0
+Text GLabel 10150 2050 2    60   Input ~ 0
 LTDC_FROM_FPGA_G3
-Text GLabel 7050 2350 0    60   Input ~ 0
+Text GLabel 8650 2350 0    60   Input ~ 0
 LTDC_FROM_FPGA_G2
-Text GLabel 7150 1650 2    60   Input ~ 0
+Text GLabel 6300 1650 2    60   Input ~ 0
 OLED_BL
-Text GLabel 7150 1750 2    60   Input ~ 0
-SD_D1
-Text GLabel 7150 1850 2    60   Input ~ 0
-SD_D3
-Text GLabel 7150 1950 2    60   Input ~ 0
-FTDI_RXD
-Text GLabel 7150 2050 2    60   Input ~ 0
-WIFI_TXD
-Text GLabel 7150 2150 2    60   Input ~ 0
-WIFI_GPIO19
-Text GLabel 7150 2350 2    60   Input ~ 0
-FTDI_TXDEN
-Text GLabel 7150 2450 2    60   Input ~ 0
-WIFI_GPIO27
-Text GLabel 7150 2550 2    60   Input ~ 0
-WIFI_GPIO26
-Text GLabel 7150 2650 2    60   Input ~ 0
-OLED_CS
-Text GLabel 7150 2750 2    60   Input ~ 0
-OLED_MOSI
-Text GLabel 7150 2850 2    60   Input ~ 0
-OLED_DC
 Wire Wire Line
-	7050 1650 7150 1650
-Wire Wire Line
-	7050 1750 7150 1750
-Wire Wire Line
-	7050 1850 7150 1850
-Wire Wire Line
-	7050 1950 7150 1950
-Wire Wire Line
-	7050 2050 7150 2050
-Wire Wire Line
-	7050 2150 7150 2150
-Wire Wire Line
-	7050 2350 7150 2350
-Wire Wire Line
-	7050 2450 7150 2450
-Wire Wire Line
-	7150 2550 7050 2550
-Wire Wire Line
-	7050 2650 7150 2650
-Wire Wire Line
-	7050 2750 7150 2750
-Wire Wire Line
-	7150 2850 7050 2850
-Text GLabel 11700 1650 0    60   Input ~ 0
-WIFI_GPIO22
-Text GLabel 11700 1750 0    60   Input ~ 0
-SD_D2
-Text GLabel 11700 1850 0    60   Input ~ 0
-SD_CMD
-Text GLabel 11700 1950 0    60   Input ~ 0
-FTDI_nRXLED
-Text GLabel 11700 2250 0    60   Input ~ 0
-SD_CD
-Wire Wire Line
-	11800 1650 11700 1650
-Wire Wire Line
-	11700 1750 11800 1750
-Wire Wire Line
-	11800 1850 11700 1850
-Wire Wire Line
-	11700 1950 11800 1950
-Wire Wire Line
-	11700 2250 11800 2250
-Text GLabel 10750 1350 2    60   Input ~ 0
-LTDC_FROM_FPGA_R3
-Text GLabel 7050 2750 0    60   Input ~ 0
+	6200 1650 6300 1650
+Text GLabel 8650 2750 0    60   Input ~ 0
 LTDC_FROM_FPGA_B5
-Text GLabel 7050 2850 0    60   Input ~ 0
-LTDC_FROM_FPGA_B7
+Wire Wire Line
+	10150 1350 10200 1350
+Text GLabel 8650 2050 0    60   Input ~ 0
+LTDC_FROM_FPGA_G4
+Text GLabel 10150 1650 2    60   Input ~ 0
+LTDC_FROM_FPGA_R7
 $EndSCHEMATC

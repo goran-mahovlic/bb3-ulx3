@@ -31,8 +31,6 @@ Text GLabel 4200 4500 0    60   Input ~ 0
 GP9
 Text GLabel 5700 3900 2    60   Input ~ 0
 GN10
-Text GLabel 4200 3900 0    60   Input ~ 0
-GP10
 Text GLabel 5700 3700 2    60   Input ~ 0
 GN8
 Text GLabel 4200 3700 0    60   Input ~ 0
@@ -85,8 +83,6 @@ Text GLabel 5700 4100 2    60   Input ~ 0
 AUDIO_R2
 Text GLabel 5700 3600 2    60   Input ~ 0
 AUDIO_R3
-Text GLabel 4200 4400 0    60   Input ~ 0
-LED0
 Text GLabel 5700 5000 2    60   Input ~ 0
 LED5
 Text GLabel 4200 4700 0    60   Input ~ 0
@@ -154,8 +150,6 @@ $EndComp
 NoConn ~ 4200 3000
 NoConn ~ 4200 3100
 NoConn ~ 5700 3000
-Text GLabel 5700 2200 2    60   Input ~ 0
-WIFI_GPIO25
 Text GLabel 6950 4800 2    60   Input ~ 0
 LTDC_TO_FPGA_R3
 Text GLabel 6950 4700 2    60   Input ~ 0
@@ -166,13 +160,13 @@ Text GLabel 6950 4500 2    60   Input ~ 0
 LTDC_TO_FPGA_R6
 Text GLabel 6950 4400 2    60   Input ~ 0
 LTDC_TO_FPGA_R7
-Text GLabel 2550 3900 0    60   Input ~ 0
+Text GLabel 4200 3900 0    60   Input ~ 0
 LTDC_TO_FPGA_G3
 Text GLabel 2550 4000 0    60   Input ~ 0
 LTDC_TO_FPGA_G4
 Text GLabel 2550 4300 0    60   Input ~ 0
 LTDC_TO_FPGA_G5
-Text GLabel 2550 4400 0    60   Input ~ 0
+Text GLabel 4200 4400 0    60   Input ~ 0
 LTDC_TO_FPGA_G6
 Text GLabel 2550 4500 0    60   Input ~ 0
 LTDC_TO_FPGA_G7
@@ -200,20 +194,14 @@ Text GLabel 2750 5100 2    60   Input ~ 0
 GP12
 Wire Wire Line
 	2750 5100 2550 5100
-Text GLabel 4200 2800 0    60   Input ~ 0
-WIFI_GPIO35
 Text GLabel 2650 3800 2    60   Input ~ 0
 AUDIO_R0
-Text GLabel 2650 3900 2    60   Input ~ 0
-GP10
 Text GLabel 2650 4000 2    60   Input ~ 0
 AUDIO_L2
 Text GLabel 2650 4100 2    60   Input ~ 0
 AUDIO_L0
 Text GLabel 2650 4300 2    60   Input ~ 0
 GP11
-Text GLabel 2650 4400 2    60   Input ~ 0
-LED0
 Text GLabel 2650 4500 2    60   Input ~ 0
 GP9
 Text GLabel 2650 4600 2    60   Input ~ 0
@@ -223,15 +211,11 @@ LED2
 Wire Wire Line
 	2550 3800 2650 3800
 Wire Wire Line
-	2650 3900 2550 3900
-Wire Wire Line
 	2550 4000 2650 4000
 Wire Wire Line
 	2650 4100 2550 4100
 Wire Wire Line
 	2550 4300 2650 4300
-Wire Wire Line
-	2650 4400 2550 4400
 Wire Wire Line
 	2550 4500 2650 4500
 Wire Wire Line
@@ -278,4 +262,10 @@ Wire Wire Line
 	6850 4700 6950 4700
 Wire Wire Line
 	6850 4800 6950 4800
+Text GLabel 4100 2800 0    60   Input ~ 0
+LTDC_FROM_FPGA_R3
+Wire Wire Line
+	4100 2800 4200 2800
+Text GLabel 5700 2200 2    60   Input ~ 0
+LTDC_FROM_FPGA_R5
 $EndSCHEMATC
