@@ -13,12 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Bus Line
-	6300 2000 6400 1900
-Wire Bus Line
-	6400 1900 6700 1900
-Text Label 6300 3050 1    50   ~ 0
-LTDC_R[2..7],LTDC_G[2..7],LTDC_B[2..7]
 Wire Wire Line
 	10500 3500 10500 3300
 Wire Wire Line
@@ -184,21 +178,13 @@ Wire Wire Line
 Wire Wire Line
 	3000 1200 3200 1200
 Connection ~ 3000 1200
-Wire Wire Line
-	4700 3100 3100 3100
-Text GLabel 3100 3100 2    50   BiDi ~ 0
+Text GLabel 3800 3100 0    50   BiDi ~ 0
 LTDC_FROM_FPGA_CLK
-Wire Wire Line
-	4700 3300 3100 3300
-Text GLabel 3100 3300 2    50   BiDi ~ 0
+Text GLabel 3800 3300 0    50   BiDi ~ 0
 LTDC_FROM_FPGA_HSYNC
-Wire Wire Line
-	4700 3400 3100 3400
-Text GLabel 3100 3400 2    50   BiDi ~ 0
+Text GLabel 3800 3400 0    50   BiDi ~ 0
 LTDC_FROM_FPGA_VSYNC
-Wire Wire Line
-	4700 3500 3100 3500
-Text GLabel 3100 3500 2    50   BiDi ~ 0
+Text GLabel 3800 3500 0    50   BiDi ~ 0
 LTDC_FROM_FPGA_DE
 Wire Wire Line
 	4700 3200 3900 3200
@@ -259,103 +245,61 @@ Wire Wire Line
 	4300 5900 3500 5900
 Text Label 4300 5900 2    50   ~ 0
 YU
-Wire Wire Line
-	5700 4200 6200 4200
-Text GLabel 6200 4200 0    50   BiDi ~ 0
+Text GLabel 5850 4200 2    50   BiDi ~ 0
 LTDC_FROM_FPGA_B7
-Wire Wire Line
-	5700 4100 6200 4100
-Text GLabel 6200 4100 0    50   BiDi ~ 0
+Text GLabel 5850 4100 2    50   BiDi ~ 0
 LTDC_FROM_FPGA_B6
-Wire Wire Line
-	5700 4000 6200 4000
-Text GLabel 6200 4000 0    50   BiDi ~ 0
+Text GLabel 5850 4000 2    50   BiDi ~ 0
 LTDC_FROM_FPGA_B5
-Wire Wire Line
-	5700 3900 6200 3900
-Text GLabel 6200 3900 0    50   BiDi ~ 0
+Text GLabel 5850 3900 2    50   BiDi ~ 0
 LTDC_FROM_FPGA_B4
-Wire Wire Line
-	5700 3800 6200 3800
-Text GLabel 6200 3800 0    50   BiDi ~ 0
+Text GLabel 5850 3800 2    50   BiDi ~ 0
 LTDC_FROM_FPGA_B3
-Wire Wire Line
-	5700 3400 6200 3400
-Text GLabel 6200 3400 0    50   BiDi ~ 0
+Text GLabel 5850 3400 2    50   BiDi ~ 0
 LTDC_FROM_FPGA_G7
-Wire Wire Line
-	5700 2600 6200 2600
-Text GLabel 6200 2600 0    50   BiDi ~ 0
+Text GLabel 5850 2600 2    50   BiDi ~ 0
 LTDC_FROM_FPGA_R7
-Wire Wire Line
-	5700 2500 6200 2500
-Text GLabel 6200 2500 0    50   BiDi ~ 0
+Text GLabel 5850 2500 2    50   BiDi ~ 0
 LTDC_FROM_FPGA_R6
-Wire Wire Line
-	5700 2400 6200 2400
-Text GLabel 6200 2400 0    50   BiDi ~ 0
+Text GLabel 5850 2400 2    50   BiDi ~ 0
 LTDC_FROM_FPGA_R5
-Wire Wire Line
-	5700 2300 6200 2300
-Text GLabel 6200 2300 0    50   BiDi ~ 0
+Text GLabel 5850 2300 2    50   BiDi ~ 0
 LTDC_FROM_FPGA_R4
-Wire Wire Line
-	5700 2200 6200 2200
-Text GLabel 6200 2200 0    50   BiDi ~ 0
+Text GLabel 5850 2200 2    50   BiDi ~ 0
 LTDC_FROM_FPGA_R3
 Wire Wire Line
 	5500 6400 6100 6400
 Text GLabel 6100 6400 0    50   BiDi ~ 0
 IRQ_TOUCH
-Wire Wire Line
-	5700 2900 6200 2900
-Text GLabel 6200 2900 0    50   BiDi ~ 0
+Text GLabel 5850 2900 2    50   BiDi ~ 0
 LTDC_FROM_FPGA_G2
-Wire Wire Line
-	5700 3000 6200 3000
-Text GLabel 6150 3000 0    50   BiDi ~ 0
+Text GLabel 5850 3000 2    50   BiDi ~ 0
 LTDC_FROM_FPGA_G3
-Wire Wire Line
-	5700 3100 6200 3100
-Text GLabel 6200 3100 0    50   BiDi ~ 0
+Text GLabel 5850 3100 2    50   BiDi ~ 0
 LTDC_FROM_FPGA_G4
-Wire Wire Line
-	5700 3200 6200 3200
-Text GLabel 6200 3200 0    50   BiDi ~ 0
+Text GLabel 5850 3200 2    50   BiDi ~ 0
 LTDC_FROM_FPGA_G5
-Wire Wire Line
-	5700 3300 6200 3300
-Text GLabel 6200 3300 0    50   BiDi ~ 0
+Text GLabel 5850 3300 2    50   BiDi ~ 0
 LTDC_FROM_FPGA_G6
 Wire Wire Line
 	7800 5600 7300 5600
 Text GLabel 7300 5600 2    50   BiDi ~ 0
 DAC_OUT1
 Wire Wire Line
-	7000 2600 7700 2600
-Wire Wire Line
 	7700 3000 7700 2600
-Text GLabel 7000 2600 2    50   BiDi ~ 0
+Text GLabel 7650 2600 0    50   BiDi ~ 0
 USB_OTG_FS_VBUS
-Connection ~ 7700 2600
-Wire Wire Line
-	7000 2900 9600 2900
 Wire Wire Line
 	9600 2900 10600 2900
 Wire Wire Line
 	9300 3600 9600 3600
 Wire Wire Line
 	9600 3600 9600 2900
-Text GLabel 7000 2900 2    50   BiDi ~ 0
+Text GLabel 7650 2900 0    50   BiDi ~ 0
 USB_OTG_FS_ID
-Connection ~ 9600 2900
-Wire Wire Line
-	8400 2700 7000 2700
-Text GLabel 7000 2700 2    50   BiDi ~ 0
+Text GLabel 7650 2700 0    50   BiDi ~ 0
 USB_OTG_FS_D_N
-Wire Wire Line
-	7000 2800 8400 2800
-Text GLabel 7000 2800 2    50   BiDi ~ 0
+Text GLabel 7650 2800 0    50   BiDi ~ 0
 USB_OTG_FS_D_P
 Wire Wire Line
 	8800 2800 9500 2800
@@ -399,19 +343,12 @@ Connection ~ 1900 1200
 Connection ~ 1600 1200
 Text GLabel 1600 1300 0    10   BiDi ~ 0
 +5V
-Wire Wire Line
-	8100 1600 7000 1600
-Text GLabel 7000 1600 2    50   BiDi ~ 0
+Text GLabel 7650 1600 0    50   BiDi ~ 0
 ~USB_OTG_FS_OC
 Wire Wire Line
 	8100 1500 7700 1500
-Wire Wire Line
-	7700 1500 7000 1500
-Wire Wire Line
-	7700 1700 7700 1500
-Text GLabel 7000 1500 2    50   BiDi ~ 0
+Text GLabel 7650 1500 0    50   BiDi ~ 0
 USB_OTG_FS_PSO
-Connection ~ 7700 1500
 Wire Wire Line
 	10400 2000 10200 2000
 Wire Wire Line
@@ -488,38 +425,6 @@ Connection ~ 9400 1400
 Connection ~ 10200 2600
 Connection ~ 8200 2600
 Connection ~ 8200 3400
-Entry Wire Line
-	6200 4200 6300 4100
-Entry Wire Line
-	6200 4100 6300 4000
-Entry Wire Line
-	6200 4000 6300 3900
-Entry Wire Line
-	6200 3900 6300 3800
-Entry Wire Line
-	6200 3800 6300 3700
-Entry Wire Line
-	6200 3400 6300 3300
-Entry Wire Line
-	6200 2600 6300 2500
-Entry Wire Line
-	6200 2500 6300 2400
-Entry Wire Line
-	6200 2400 6300 2300
-Entry Wire Line
-	6200 2300 6300 2200
-Entry Wire Line
-	6200 2200 6300 2100
-Entry Wire Line
-	6200 2900 6300 2800
-Entry Wire Line
-	6200 3000 6300 2900
-Entry Wire Line
-	6200 3100 6300 3000
-Entry Wire Line
-	6200 3200 6300 3100
-Entry Wire Line
-	6200 3300 6300 3200
 $Comp
 L TFT_LCD_Audio_USB-rescue:DINA4_L-EEZ_DIB_MCU_r3B4-eagle-import #FRAME4
 U 1 1 B9984423
@@ -1447,6 +1352,61 @@ Wire Wire Line
 	9600 1400 9600 1550
 Wire Wire Line
 	9600 1750 9600 1900
-Wire Bus Line
-	6300 2000 6300 4100
+Wire Wire Line
+	7650 2600 7700 2600
+Connection ~ 7700 2600
+Wire Wire Line
+	8400 2700 7650 2700
+Wire Wire Line
+	8400 2800 7650 2800
+Wire Wire Line
+	7650 2900 9600 2900
+Connection ~ 9600 2900
+Wire Wire Line
+	7700 1700 7700 1500
+Wire Wire Line
+	7650 1600 8100 1600
+Wire Wire Line
+	7650 1500 7700 1500
+Connection ~ 7700 1500
+Wire Wire Line
+	3800 3100 4700 3100
+Wire Wire Line
+	4700 3300 3800 3300
+Wire Wire Line
+	3800 3400 4700 3400
+Wire Wire Line
+	4700 3500 3800 3500
+Wire Wire Line
+	5850 2200 5700 2200
+Wire Wire Line
+	5700 2300 5850 2300
+Wire Wire Line
+	5850 2400 5700 2400
+Wire Wire Line
+	5700 2500 5850 2500
+Wire Wire Line
+	5850 2600 5700 2600
+Wire Wire Line
+	5700 2900 5850 2900
+Wire Wire Line
+	5850 3000 5700 3000
+Wire Wire Line
+	5700 3100 5850 3100
+Wire Wire Line
+	5850 3200 5700 3200
+Wire Wire Line
+	5700 3300 5850 3300
+Wire Wire Line
+	5850 3400 5700 3400
+Wire Wire Line
+	5850 3800 5700 3800
+Wire Wire Line
+	5700 3900 5850 3900
+Wire Wire Line
+	5850 4000 5700 4000
+Wire Wire Line
+	5850 4100 5700 4100
+Wire Wire Line
+	5700 4200 5850 4200
 $EndSCHEMATC
