@@ -211,53 +211,29 @@ Wire Wire Line
 Connection ~ 7400 1200
 Text GLabel 7600 1200 0    10   BiDi ~ 0
 +3V3
-Wire Wire Line
-	1200 2600 2000 2600
-Text GLabel 1200 2600 2    50   BiDi ~ 0
+Text GLabel 1600 2600 0    50   BiDi ~ 0
 ETH_TX_EN
-Wire Wire Line
-	1200 2700 2000 2700
-Text GLabel 1200 2700 2    50   BiDi ~ 0
+Text GLabel 1600 2700 0    50   BiDi ~ 0
 ETH_RX_CLK
-Wire Wire Line
-	1200 2800 2000 2800
-Text GLabel 1200 2800 2    50   BiDi ~ 0
+Text GLabel 1600 2800 0    50   BiDi ~ 0
 ETH_RX_DV
-Wire Wire Line
-	2200 4100 1200 4100
-Text GLabel 1200 4100 2    50   BiDi ~ 0
+Text GLabel 1500 4100 0    50   BiDi ~ 0
 ETH_RXD0
-Wire Wire Line
-	1200 4200 2200 4200
-Text GLabel 1200 4200 2    50   BiDi ~ 0
+Text GLabel 1500 4200 0    50   BiDi ~ 0
 ETH_RXD1
-Wire Wire Line
-	1200 4300 2200 4300
-Text GLabel 1200 4300 2    50   BiDi ~ 0
+Text GLabel 1500 4300 0    50   BiDi ~ 0
 ETH_RXD2
-Wire Wire Line
-	1200 4400 2200 4400
-Text GLabel 1200 4400 2    50   BiDi ~ 0
+Text GLabel 1500 4400 0    50   BiDi ~ 0
 ETH_RXD3
-Wire Wire Line
-	1200 4600 2200 4600
-Text GLabel 1200 4600 2    50   BiDi ~ 0
+Text GLabel 1500 4600 0    50   BiDi ~ 0
 ETH_TXD0
-Wire Wire Line
-	1200 4700 2200 4700
-Text GLabel 1200 4700 2    50   BiDi ~ 0
+Text GLabel 1500 4700 0    50   BiDi ~ 0
 ETH_TXD1
-Wire Wire Line
-	1200 4800 2200 4800
-Text GLabel 1200 4800 2    50   BiDi ~ 0
+Text GLabel 1500 4800 0    50   BiDi ~ 0
 ETH_TXD2
-Wire Wire Line
-	1200 4900 2200 4900
-Text GLabel 1200 4900 2    50   BiDi ~ 0
+Text GLabel 1500 4900 0    50   BiDi ~ 0
 ETH_TXD3
-Wire Wire Line
-	1200 3800 3200 3800
-Text GLabel 1200 3800 2    50   BiDi ~ 0
+Text GLabel 1500 3800 0    50   BiDi ~ 0
 ~RESET
 Wire Wire Line
 	2000 3400 2000 3700
@@ -267,27 +243,16 @@ Wire Wire Line
 	2000 3700 1800 3700
 Connection ~ 2000 3700
 Wire Wire Line
-	1200 2300 3000 2300
-Wire Wire Line
 	3000 2300 3000 2500
 Wire Wire Line
 	3000 2500 3200 2500
-Text GLabel 1200 2300 2    50   BiDi ~ 0
+Text GLabel 1600 2300 0    50   BiDi ~ 0
 ETH_MDC
 Wire Wire Line
-	1200 2200 3100 2200
-Wire Wire Line
-	3100 2200 3100 2400
-Wire Wire Line
 	3100 2400 3200 2400
-Wire Wire Line
-	3100 2200 3100 2100
-Text GLabel 1200 2200 2    50   BiDi ~ 0
+Text GLabel 1600 2200 0    50   BiDi ~ 0
 ETH_MDIO
-Connection ~ 3100 2200
-Wire Wire Line
-	1200 2500 2000 2500
-Text GLabel 1200 2500 2    50   BiDi ~ 0
+Text GLabel 1600 2500 0    50   BiDi ~ 0
 ETH_TX_CLK
 Wire Wire Line
 	5000 4300 5400 4300
@@ -506,9 +471,7 @@ Wire Wire Line
 	7700 4000 7700 4800
 Wire Wire Line
 	9400 4800 7700 4800
-Wire Wire Line
-	1200 2000 2000 2000
-Text GLabel 1200 2000 2    50   BiDi ~ 0
+Text GLabel 1600 2000 0    50   BiDi ~ 0
 MCLK_25
 Wire Wire Line
 	3200 2600 2900 2600
@@ -517,14 +480,9 @@ Wire Wire Line
 Wire Wire Line
 	2900 2000 2900 2600
 Wire Wire Line
-	1200 3900 1900 3900
-Wire Wire Line
-	1900 3400 1900 3900
-Wire Wire Line
 	2200 3900 1900 3900
-Text GLabel 1200 3900 2    50   BiDi ~ 0
+Text GLabel 1500 3900 0    50   BiDi ~ 0
 ETH_CRS
-Connection ~ 1900 3900
 Wire Wire Line
 	3000 3500 3000 3400
 Wire Wire Line
@@ -582,9 +540,7 @@ Wire Wire Line
 	2400 2700 2600 2700
 Wire Wire Line
 	3200 3600 2600 3600
-Wire Wire Line
-	2200 3600 1200 3600
-Text GLabel 1200 3600 2    50   BiDi ~ 0
+Text GLabel 1500 3600 0    50   BiDi ~ 0
 ETH_COL
 Wire Wire Line
 	2600 4400 3200 4400
@@ -598,9 +554,7 @@ Wire Wire Line
 	2600 3700 3200 3700
 Wire Wire Line
 	2600 3900 3200 3900
-Wire Wire Line
-	1700 3700 1200 3700
-Text GLabel 1200 3700 2    50   BiDi ~ 0
+Text GLabel 1500 3700 0    50   BiDi ~ 0
 ETH_RX_ERR
 $Comp
 L Ethernet_PHY-rescue:DINA4_L-EEZ_DIB_MCU_r3B4-eagle-import #FRAME5
@@ -1842,4 +1796,50 @@ F 3 "~" H 6600 4700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6600 4800 6600 5000
+Wire Wire Line
+	3100 2100 3100 2200
+Wire Wire Line
+	1600 2200 3100 2200
+Connection ~ 3100 2200
+Wire Wire Line
+	3100 2200 3100 2400
+Wire Wire Line
+	1600 2000 2000 2000
+Wire Wire Line
+	3000 2300 1600 2300
+Wire Wire Line
+	1600 2500 2000 2500
+Wire Wire Line
+	2000 2600 1600 2600
+Wire Wire Line
+	1600 2700 2000 2700
+Wire Wire Line
+	2000 2800 1600 2800
+Wire Wire Line
+	1900 3400 1900 3900
+Wire Wire Line
+	1500 3900 1900 3900
+Connection ~ 1900 3900
+Wire Wire Line
+	1500 3800 3200 3800
+Wire Wire Line
+	1500 3700 1700 3700
+Wire Wire Line
+	1500 3600 2200 3600
+Wire Wire Line
+	2200 4100 1500 4100
+Wire Wire Line
+	1500 4200 2200 4200
+Wire Wire Line
+	1500 4300 2200 4300
+Wire Wire Line
+	2200 4400 1500 4400
+Wire Wire Line
+	1500 4600 2200 4600
+Wire Wire Line
+	1500 4700 2200 4700
+Wire Wire Line
+	2200 4800 1500 4800
+Wire Wire Line
+	1500 4900 2200 4900
 $EndSCHEMATC

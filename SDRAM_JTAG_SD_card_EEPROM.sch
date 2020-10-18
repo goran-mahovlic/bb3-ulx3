@@ -13,18 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Bus Line
-	2100 1500 2000 1400
-Wire Bus Line
-	2000 1400 1300 1400
-Text Label 1300 1400 0    50   ~ 0
-FMC_A[0..12]
-Wire Bus Line
-	4300 1300 4200 1200
-Wire Bus Line
-	4200 1200 1300 1200
-Text Label 1300 1200 0    50   ~ 0
-FMC_D[0..15]
 Wire Wire Line
 	11000 4300 11000 4200
 Wire Wire Line
@@ -279,195 +267,103 @@ Wire Wire Line
 	7700 1800 7600 1800
 Text GLabel 7700 1800 0    10   BiDi ~ 0
 +3V3
-Wire Wire Line
-	2600 4200 2000 4200
-Text GLabel 2000 4200 0    50   BiDi ~ 0
+Text GLabel 2550 4200 0    50   BiDi ~ 0
 FMC_SDNRAS
-Wire Wire Line
-	2600 4300 2000 4300
-Text GLabel 2000 4300 0    50   BiDi ~ 0
+Text GLabel 2550 4300 0    50   BiDi ~ 0
 FMC_SDNCAS
-Wire Wire Line
-	2600 4400 2000 4400
-Text GLabel 2000 4400 0    50   BiDi ~ 0
+Text GLabel 2550 4400 0    50   BiDi ~ 0
 FMC_SDNWE
-Wire Wire Line
-	2600 4500 2000 4500
-Text GLabel 2000 4500 0    50   BiDi ~ 0
+Text GLabel 2550 4500 0    50   BiDi ~ 0
 FMC_SDNE0
-Wire Wire Line
-	4200 3200 3800 3200
-Text GLabel 4200 3200 0    50   BiDi ~ 0
+Text GLabel 3850 3200 2    50   BiDi ~ 0
 FMC_D15
-Wire Wire Line
-	4200 3100 3800 3100
-Text GLabel 4200 3100 0    50   BiDi ~ 0
+Text GLabel 3850 3100 2    50   BiDi ~ 0
 FMC_D14
-Wire Wire Line
-	4200 3000 3800 3000
-Text GLabel 4200 3000 0    50   BiDi ~ 0
-FMC_D13
-Wire Wire Line
-	4200 2900 3800 2900
-Text GLabel 4200 2900 0    50   BiDi ~ 0
+Text GLabel 3850 2900 2    50   BiDi ~ 0
 FMC_D12
-Wire Wire Line
-	4200 2700 3800 2700
-Text GLabel 4200 2700 0    50   BiDi ~ 0
+Text GLabel 3850 2700 2    50   BiDi ~ 0
 FMC_D10
-Wire Wire Line
-	4200 2600 3800 2600
-Text GLabel 4200 2600 0    50   BiDi ~ 0
+Text GLabel 3850 2600 2    50   BiDi ~ 0
 FMC_D9
-Wire Wire Line
-	4200 2500 3800 2500
-Text GLabel 4200 2500 0    50   BiDi ~ 0
+Text GLabel 3850 2500 2    50   BiDi ~ 0
 FMC_D8
-Wire Wire Line
-	4200 2400 3800 2400
-Text GLabel 4200 2400 0    50   BiDi ~ 0
+Text GLabel 3850 2400 2    50   BiDi ~ 0
 FMC_D7
-Wire Wire Line
-	4200 2300 3800 2300
-Text GLabel 4200 2300 0    50   BiDi ~ 0
+Text GLabel 3850 2300 2    50   BiDi ~ 0
 FMC_D6
-Wire Wire Line
-	4200 2200 3800 2200
-Text GLabel 4200 2200 0    50   BiDi ~ 0
+Text GLabel 3850 2200 2    50   BiDi ~ 0
 FMC_D5
-Wire Wire Line
-	4200 2100 3800 2100
-Text GLabel 4200 2100 0    50   BiDi ~ 0
+Text GLabel 3850 2100 2    50   BiDi ~ 0
 FMC_D4
-Wire Wire Line
-	4200 2000 3800 2000
-Text GLabel 4200 2000 0    50   BiDi ~ 0
+Text GLabel 3850 2000 2    50   BiDi ~ 0
 FMC_D3
-Wire Wire Line
-	4200 1900 3800 1900
-Text GLabel 4200 1900 0    50   BiDi ~ 0
+Text GLabel 3850 1900 2    50   BiDi ~ 0
 FMC_D2
-Wire Wire Line
-	4200 1800 3800 1800
-Text GLabel 4200 1800 0    50   BiDi ~ 0
+Text GLabel 3850 1800 2    50   BiDi ~ 0
 FMC_D1
-Wire Wire Line
-	4200 1700 3800 1700
-Text GLabel 4200 1700 0    50   BiDi ~ 0
+Text GLabel 3850 1700 2    50   BiDi ~ 0
 FMC_D0
-Wire Wire Line
-	2200 2800 2600 2800
-Text GLabel 2200 2800 2    50   BiDi ~ 0
+Text GLabel 2550 2800 0    50   BiDi ~ 0
 FMC_A11
-Wire Wire Line
-	2200 2600 2600 2600
-Text GLabel 2200 2600 2    50   BiDi ~ 0
+Text GLabel 2550 2600 0    50   BiDi ~ 0
 FMC_A9
-Wire Wire Line
-	2200 2500 2600 2500
-Text GLabel 2200 2500 2    50   BiDi ~ 0
+Text GLabel 2550 2500 0    50   BiDi ~ 0
 FMC_A8
-Wire Wire Line
-	2200 2400 2600 2400
-Text GLabel 2200 2400 2    50   BiDi ~ 0
+Text GLabel 2550 2400 0    50   BiDi ~ 0
 FMC_A7
-Wire Wire Line
-	2200 2300 2600 2300
-Text GLabel 2200 2300 2    50   BiDi ~ 0
+Text GLabel 2550 2300 0    50   BiDi ~ 0
 FMC_A6
-Wire Wire Line
-	2200 2200 2600 2200
-Text GLabel 2200 2200 2    50   BiDi ~ 0
+Text GLabel 2550 2200 0    50   BiDi ~ 0
 FMC_A5
-Wire Wire Line
-	2200 2100 2600 2100
-Text GLabel 2200 2100 2    50   BiDi ~ 0
+Text GLabel 2550 2100 0    50   BiDi ~ 0
 FMC_A4
-Wire Wire Line
-	2200 2000 2600 2000
-Text GLabel 2200 2000 2    50   BiDi ~ 0
+Text GLabel 2550 2000 0    50   BiDi ~ 0
 FMC_A3
-Wire Wire Line
-	2200 1900 2600 1900
-Text GLabel 2200 1900 2    50   BiDi ~ 0
+Text GLabel 2550 1900 0    50   BiDi ~ 0
 FMC_A2
-Wire Wire Line
-	2200 1800 2600 1800
-Text GLabel 2200 1800 2    50   BiDi ~ 0
+Text GLabel 2550 1800 0    50   BiDi ~ 0
 FMC_A1
-Wire Wire Line
-	2200 1700 2600 1700
-Text GLabel 2200 1700 2    50   BiDi ~ 0
+Text GLabel 2550 1700 0    50   BiDi ~ 0
 FMC_A0
-Wire Wire Line
-	2600 3100 2000 3100
-Text GLabel 2000 3100 0    50   BiDi ~ 0
+Text GLabel 2550 3100 0    50   BiDi ~ 0
 FMC_BA0
-Wire Wire Line
-	2600 3200 2000 3200
-Text GLabel 2000 3200 0    50   BiDi ~ 0
+Text GLabel 2550 3200 0    50   BiDi ~ 0
 FMC_BA1
-Wire Wire Line
-	2200 2700 2600 2700
-Text GLabel 2200 2700 2    50   BiDi ~ 0
+Text GLabel 2550 2700 0    50   BiDi ~ 0
 FMC_A10
-Wire Wire Line
-	2600 3700 2000 3700
-Text GLabel 2000 3700 0    50   BiDi ~ 0
+Text GLabel 2550 3700 0    50   BiDi ~ 0
 FMC_NBL1
-Wire Wire Line
-	2600 3800 2000 3800
-Text GLabel 2000 3800 0    50   BiDi ~ 0
+Text GLabel 2550 3800 0    50   BiDi ~ 0
 FMC_NBL0
-Wire Wire Line
-	2600 5000 2000 5000
-Text GLabel 2000 5000 0    50   BiDi ~ 0
+Text GLabel 2550 5000 0    50   BiDi ~ 0
 FMC_SDCKE0
-Wire Wire Line
-	2600 4900 2000 4900
-Text GLabel 2000 4900 0    50   BiDi ~ 0
+Text GLabel 2550 4900 0    50   BiDi ~ 0
 FMC_SDCLK
-Wire Wire Line
-	6200 2400 5500 2400
-Text GLabel 5500 2400 2    50   BiDi ~ 0
+Text GLabel 6050 2400 0    50   BiDi ~ 0
 SYS_JTMS-SWDIO
-Wire Wire Line
-	6200 2500 5500 2500
-Text GLabel 5500 2500 2    50   BiDi ~ 0
+Text GLabel 6050 2500 0    50   BiDi ~ 0
 SYS_JTCK-SWCLK
 Wire Wire Line
 	8100 2700 6900 2700
 Wire Wire Line
-	6900 2700 5500 2700
-Wire Wire Line
 	6800 1600 6900 1600
 Wire Wire Line
 	6900 1600 6900 2700
-Text GLabel 5500 2700 2    50   BiDi ~ 0
+Text GLabel 6050 2700 0    50   BiDi ~ 0
 SYS_JTDO-SWO
-Connection ~ 6900 2700
 Wire Wire Line
 	8100 2800 7000 2800
-Wire Wire Line
-	7000 2800 5500 2800
 Wire Wire Line
 	6800 1500 7000 1500
 Wire Wire Line
 	7000 1500 7000 2800
-Text GLabel 5500 2800 2    50   BiDi ~ 0
+Text GLabel 6050 2800 0    50   BiDi ~ 0
 ~RESET
-Connection ~ 7000 2800
-Wire Wire Line
-	5900 4500 5300 4500
-Text GLabel 5300 4500 0    50   BiDi ~ 0
+Text GLabel 5800 4500 0    50   BiDi ~ 0
 I2C1_SDA
-Wire Wire Line
-	5900 4400 5300 4400
-Text GLabel 5300 4400 0    50   BiDi ~ 0
+Text GLabel 5800 4400 0    50   BiDi ~ 0
 I2C1_SCL
-Wire Wire Line
-	9900 5100 8000 5100
-Text GLabel 8000 5100 2    50   BiDi ~ 0
+Text GLabel 8700 5100 0    50   BiDi ~ 0
 SD_FROM_FPGA_DETECT
 Wire Wire Line
 	8700 4800 9900 4800
@@ -497,77 +393,15 @@ Wire Wire Line
 Text Label 7200 2500 0    50   ~ 0
 TCK
 Connection ~ 7200 2500
-Wire Wire Line
-	4200 2800 3800 2800
-Text GLabel 4200 2800 0    50   BiDi ~ 0
+Text GLabel 3850 2800 2    50   BiDi ~ 0
 FMC_D11
 Wire Wire Line
 	7800 1800 8000 1800
 Wire Wire Line
 	8100 1800 8000 1800
 Connection ~ 8000 1800
-Wire Wire Line
-	2200 2900 2600 2900
-Text GLabel 2200 2900 2    50   BiDi ~ 0
+Text GLabel 2550 2900 0    50   BiDi ~ 0
 FMC_A12
-Entry Wire Line
-	2100 2700 2200 2800
-Entry Wire Line
-	2100 2500 2200 2600
-Entry Wire Line
-	2100 2400 2200 2500
-Entry Wire Line
-	2100 2300 2200 2400
-Entry Wire Line
-	2100 2200 2200 2300
-Entry Wire Line
-	2100 2100 2200 2200
-Entry Wire Line
-	2100 2000 2200 2100
-Entry Wire Line
-	2100 1900 2200 2000
-Entry Wire Line
-	2100 1800 2200 1900
-Entry Wire Line
-	2100 1700 2200 1800
-Entry Wire Line
-	2100 1600 2200 1700
-Entry Wire Line
-	2100 2600 2200 2700
-Entry Wire Line
-	2100 2800 2200 2900
-Entry Wire Line
-	4200 3200 4300 3100
-Entry Wire Line
-	4200 3100 4300 3000
-Entry Wire Line
-	4200 3000 4300 2900
-Entry Wire Line
-	4200 2900 4300 2800
-Entry Wire Line
-	4200 2700 4300 2600
-Entry Wire Line
-	4200 2600 4300 2500
-Entry Wire Line
-	4200 2500 4300 2400
-Entry Wire Line
-	4200 2400 4300 2300
-Entry Wire Line
-	4200 2300 4300 2200
-Entry Wire Line
-	4200 2200 4300 2100
-Entry Wire Line
-	4200 2100 4300 2000
-Entry Wire Line
-	4200 2000 4300 1900
-Entry Wire Line
-	4200 1900 4300 1800
-Entry Wire Line
-	4200 1800 4300 1700
-Entry Wire Line
-	4200 1700 4300 1600
-Entry Wire Line
-	4200 2800 4300 2700
 $Comp
 L SDRAM_JTAG_SD_card_EEPROM-rescue:DINA4_L-EEZ_DIB_MCU_r3B4-eagle-import #FRAME3
 U 1 1 F8E72027
@@ -1209,7 +1043,7 @@ I2C address write: 0xA0
 Text Notes 4900 3400 0    59   ~ 0
 I2C EEPROM
 Wire Notes Line
-	7700 6100 7700 3200
+	7500 6100 7500 3200
 Text Notes 2700 1325 0    42   ~ 0
 IMPORTANT: For PCB layout \nconsult ST AN4661 section 8.4.2
 Text Notes 8175 5375 0    59   ~ 0
@@ -1260,24 +1094,116 @@ F 3 "" H 8200 2700 50  0001 C CNN
 	6    8200 2700
 	-1   0    0    -1  
 $EndComp
-Connection ~ 8700 4800
-Wire Wire Line
-	8700 4800 8000 4800
-Wire Wire Line
-	8000 4600 9900 4600
 Wire Wire Line
 	8700 4300 8700 4800
+Text GLabel 8600 4400 0    50   BiDi ~ 0
+SDMMC1_FROM_FPGA_CMD
+Text GLabel 8600 4800 0    50   BiDi ~ 0
+SDMMC1_FROM_FPGA_D0
+Text GLabel 8600 4600 0    50   BiDi ~ 0
+SDMMC1_FROM_FPGA_CK
+Wire Wire Line
+	6050 2400 6200 2400
+Wire Wire Line
+	6200 2500 6050 2500
+Wire Wire Line
+	6050 2700 6900 2700
+Connection ~ 6900 2700
+Wire Wire Line
+	6050 2800 7000 2800
+Connection ~ 7000 2800
+Wire Wire Line
+	9900 5100 8700 5100
+Wire Wire Line
+	8600 4800 8700 4800
+Connection ~ 8700 4800
+Wire Wire Line
+	8600 4600 9900 4600
+Wire Wire Line
+	8600 4400 8800 4400
 Connection ~ 8800 4400
 Wire Wire Line
-	8800 4400 8000 4400
-Text GLabel 8000 4400 2    50   BiDi ~ 0
-SDMMC1_FROM_FPGA_CMD
-Text GLabel 8000 4800 2    50   BiDi ~ 0
-SDMMC1_FROM_FPGA_D0
-Text GLabel 8000 4600 2    50   BiDi ~ 0
-SDMMC1_FROM_FPGA_CK
-Wire Bus Line
-	2100 1500 2100 2800
-Wire Bus Line
-	4300 1300 4300 3100
+	5800 4400 5900 4400
+Wire Wire Line
+	5800 4500 5900 4500
+Wire Wire Line
+	2550 3700 2600 3700
+Wire Wire Line
+	2600 3800 2550 3800
+Wire Wire Line
+	2550 4200 2600 4200
+Wire Wire Line
+	2600 4300 2550 4300
+Wire Wire Line
+	2550 4400 2600 4400
+Wire Wire Line
+	2550 4500 2600 4500
+Wire Wire Line
+	2550 4900 2600 4900
+Wire Wire Line
+	2600 5000 2550 5000
+Wire Wire Line
+	2550 1700 2600 1700
+Wire Wire Line
+	2550 1800 2600 1800
+Wire Wire Line
+	2550 1900 2600 1900
+Wire Wire Line
+	2550 2000 2600 2000
+Wire Wire Line
+	2550 2100 2600 2100
+Wire Wire Line
+	2550 2200 2600 2200
+Wire Wire Line
+	2550 2300 2600 2300
+Wire Wire Line
+	2550 2400 2600 2400
+Wire Wire Line
+	2550 2500 2600 2500
+Wire Wire Line
+	2550 2600 2600 2600
+Wire Wire Line
+	2550 2700 2600 2700
+Wire Wire Line
+	2550 2800 2600 2800
+Wire Wire Line
+	2550 2900 2600 2900
+Wire Wire Line
+	2550 3100 2600 3100
+Wire Wire Line
+	2550 3200 2600 3200
+Text GLabel 3850 3000 2    50   BiDi ~ 0
+FMC_D13
+Wire Wire Line
+	3800 1700 3850 1700
+Wire Wire Line
+	3800 1800 3850 1800
+Wire Wire Line
+	3800 1900 3850 1900
+Wire Wire Line
+	3800 2000 3850 2000
+Wire Wire Line
+	3800 2100 3850 2100
+Wire Wire Line
+	3800 2200 3850 2200
+Wire Wire Line
+	3800 2300 3850 2300
+Wire Wire Line
+	3800 2400 3850 2400
+Wire Wire Line
+	3800 2500 3850 2500
+Wire Wire Line
+	3800 2600 3850 2600
+Wire Wire Line
+	3800 2700 3850 2700
+Wire Wire Line
+	3800 2800 3850 2800
+Wire Wire Line
+	3800 2900 3850 2900
+Wire Wire Line
+	3800 3000 3850 3000
+Wire Wire Line
+	3800 3100 3850 3100
+Wire Wire Line
+	3800 3200 3850 3200
 $EndSCHEMATC

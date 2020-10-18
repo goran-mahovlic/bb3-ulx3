@@ -34,28 +34,19 @@ Wire Wire Line
 	7600 5200 7600 5400
 Connection ~ 7700 5400
 Wire Wire Line
-	8900 4000 7300 4000
-Wire Wire Line
 	7300 4000 7000 4000
 Wire Wire Line
 	7000 4200 7000 4000
 Wire Wire Line
 	7300 4100 7300 4000
-Connection ~ 7300 4000
-Text GLabel 8900 4000 0    50   BiDi ~ 0
+Text GLabel 8600 4000 2    50   BiDi ~ 0
 ENC_SW
-Wire Wire Line
-	8400 4700 8900 4700
-Connection ~ 8400 4700
-Text GLabel 8900 4700 0    50   BiDi ~ 0
+Text GLabel 8650 4700 2    50   BiDi ~ 0
 ENC_A
 Wire Wire Line
-	8400 5400 8900 5400
-Wire Wire Line
 	8200 5400 8400 5400
-Text GLabel 8900 5400 0    50   BiDi ~ 0
+Text GLabel 8650 5400 2    50   BiDi ~ 0
 ENC_B
-Connection ~ 8400 5400
 Wire Wire Line
 	10000 3700 9900 3700
 Wire Wire Line
@@ -74,8 +65,6 @@ Wire Wire Line
 	9300 4100 9200 4100
 Wire Wire Line
 	9400 4700 9300 4700
-Text GLabel 9200 4100 2    50   BiDi ~ 0
-USER_SW
 Connection ~ 9900 4100
 Connection ~ 9300 4100
 Connection ~ 9300 4700
@@ -144,8 +133,6 @@ Wire Wire Line
 	7400 1800 7300 1800
 Wire Wire Line
 	7400 2500 7300 2500
-Wire Wire Line
-	7300 1800 6500 1800
 Wire Wire Line
 	7200 3000 7300 3000
 Connection ~ 7300 3000
@@ -218,9 +205,6 @@ Wire Wire Line
 	7400 1400 6500 1400
 Wire Wire Line
 	6500 1400 6500 1200
-Wire Wire Line
-	6500 1500 6500 1400
-Connection ~ 6500 1400
 Text GLabel 7400 1400 0    10   BiDi ~ 0
 +3V3
 Wire Wire Line
@@ -285,21 +269,13 @@ Wire Wire Line
 Connection ~ 2000 1300
 Text GLabel 2100 1600 0    10   BiDi ~ 0
 PE
-Wire Wire Line
-	2100 2100 1400 2100
-Text GLabel 1400 2100 2    50   BiDi ~ 0
+Text GLabel 1750 2100 0    50   BiDi ~ 0
 PWR_SSTART
-Wire Wire Line
-	2100 2300 1400 2300
-Text GLabel 1400 2300 2    50   BiDi ~ 0
+Text GLabel 1750 2300 0    50   BiDi ~ 0
 ~FAULT
-Wire Wire Line
-	8600 1400 9300 1400
-Text GLabel 9300 1400 0    50   BiDi ~ 0
+Text GLabel 8800 1400 2    50   BiDi ~ 0
 ~FAULT
-Wire Wire Line
-	3300 2100 4000 2100
-Text GLabel 4000 2100 0    50   BiDi ~ 0
+Text GLabel 3700 2100 2    50   BiDi ~ 0
 PWR_DIRECT
 Wire Wire Line
 	3300 1800 4100 1800
@@ -347,144 +323,80 @@ Wire Wire Line
 	8600 2900 9200 2900
 Text Label 8600 2900 0    10   ~ 0
 +12V
-Wire Wire Line
-	3600 2200 4000 2200
-Text GLabel 4000 2200 0    50   BiDi ~ 0
+Text GLabel 3700 2200 2    50   BiDi ~ 0
 I2C1_SDA
-Wire Wire Line
-	8600 1700 9300 1700
-Text GLabel 9300 1700 0    50   BiDi ~ 0
+Text GLabel 8800 1700 2    50   BiDi ~ 0
 I2C1_SDA
-Wire Wire Line
-	1800 2200 1400 2200
-Text GLabel 1400 2200 2    50   BiDi ~ 0
+Text GLabel 1750 2200 0    50   BiDi ~ 0
 I2C1_SCL
-Wire Wire Line
-	8600 1600 9300 1600
-Text GLabel 9300 1600 0    50   BiDi ~ 0
+Text GLabel 8800 1600 2    50   BiDi ~ 0
 I2C1_SCL
-Wire Wire Line
-	8600 2600 9300 2600
-Text GLabel 9300 2600 0    50   BiDi ~ 0
+Text GLabel 8800 2600 2    50   BiDi ~ 0
 SPI2_FROM_FPGA_CLK
-Wire Wire Line
-	7400 2600 6700 2600
-Text GLabel 6700 2600 2    50   BiDi ~ 0
+Text GLabel 7350 2600 0    50   BiDi ~ 0
 SPI2_FROM_FPGA_MISO
-Wire Wire Line
-	7400 2700 6700 2700
-Text GLabel 6700 2700 2    50   BiDi ~ 0
+Text GLabel 7350 2700 0    50   BiDi ~ 0
 SPI2_FROM_FPGA_MOSI
-Wire Wire Line
-	8600 2400 9300 2400
-Text GLabel 9300 2400 0    50   BiDi ~ 0
+Text GLabel 8800 2400 2    50   BiDi ~ 0
 SPI2_FROM_FPGA_CSA
-Wire Wire Line
-	7400 2400 6700 2400
-Text GLabel 6700 2400 2    50   BiDi ~ 0
+Text GLabel 7350 2400 0    50   BiDi ~ 0
 SPI2_FROM_FPGA_CSB
-Wire Wire Line
-	7400 2300 6700 2300
-Text GLabel 6700 2300 2    50   BiDi ~ 0
+Text GLabel 7350 2300 0    50   BiDi ~ 0
 SPI2_FROM_FPGA_IRQ
-Wire Wire Line
-	7400 1900 6700 1900
-Text GLabel 6700 1900 2    50   BiDi ~ 0
+Text GLabel 7350 1900 0    50   BiDi ~ 0
 SPI5_FROM_FPGA_CLK
-Wire Wire Line
-	8600 1900 9300 1900
-Text GLabel 9300 1900 0    50   BiDi ~ 0
+Text GLabel 8800 1900 2    50   BiDi ~ 0
 SPI5_FROM_FPGA_MISO
-Wire Wire Line
-	8600 2000 9300 2000
-Text GLabel 9300 2000 0    50   BiDi ~ 0
+Text GLabel 8800 2000 2    50   BiDi ~ 0
 SPI5_FROM_FPGA_MOSI
-Wire Wire Line
-	7400 1600 6700 1600
-Text GLabel 6700 1600 2    50   BiDi ~ 0
+Text GLabel 7350 1600 0    50   BiDi ~ 0
 SPI5_FROM_FPGA_CSA
-Wire Wire Line
-	7400 1700 6700 1700
-Text GLabel 6700 1700 2    50   BiDi ~ 0
+Text GLabel 7350 1700 0    50   BiDi ~ 0
 SPI5_FROM_FPGA_CSB
-Wire Wire Line
-	7400 1500 6700 1500
-Text GLabel 6700 1500 2    50   BiDi ~ 0
+Text GLabel 7350 1500 0    50   BiDi ~ 0
 SPI5_FROM_FPGA_IRQ
-Wire Wire Line
-	7400 2200 6700 2200
-Text GLabel 6700 2200 2    50   BiDi ~ 0
+Text GLabel 7350 2200 0    50   BiDi ~ 0
 SPI4_FROM_FPGA_CLK
-Wire Wire Line
-	8600 2200 9300 2200
-Text GLabel 9300 2200 0    50   BiDi ~ 0
+Text GLabel 8800 2200 2    50   BiDi ~ 0
 SPI4_FROM_FPGA_MISO
-Wire Wire Line
-	8600 2300 9300 2300
-Text GLabel 9300 2300 0    50   BiDi ~ 0
+Text GLabel 8800 2300 2    50   BiDi ~ 0
 SPI4_FROM_FPGA_MOSI
-Wire Wire Line
-	8600 2100 9300 2100
-Text GLabel 9300 2100 0    50   BiDi ~ 0
+Text GLabel 8800 2100 2    50   BiDi ~ 0
 SPI4_FROM_FPGA_CSA
-Wire Wire Line
-	7400 2100 6700 2100
-Text GLabel 6700 2100 2    50   BiDi ~ 0
+Text GLabel 7350 2100 0    50   BiDi ~ 0
 SPI4_FROM_FPGA_CSB
-Wire Wire Line
-	7400 2000 6700 2000
-Text GLabel 6700 2000 2    50   BiDi ~ 0
+Text GLabel 7350 2000 0    50   BiDi ~ 0
 SPI4_FROM_FPGA_IRQ
-Wire Wire Line
-	8600 1300 9300 1300
-Text GLabel 9300 1300 0    50   BiDi ~ 0
+Text GLabel 8800 1300 2    50   BiDi ~ 0
 ~RESET
-Wire Wire Line
-	3300 2000 4000 2000
-Text GLabel 4000 2000 0    50   BiDi ~ 0
+Text GLabel 3700 2000 2    50   BiDi ~ 0
 +VAUX
-Wire Wire Line
-	8600 1500 9300 1500
-Text GLabel 9300 1500 0    50   BiDi ~ 0
+Text GLabel 8800 1500 2    50   BiDi ~ 0
 OE_SYNC
-Wire Wire Line
-	5100 4800 5600 4800
-Text GLabel 5600 4800 0    50   BiDi ~ 0
+Text GLabel 5150 4800 2    50   BiDi ~ 0
 UART_RX/DIN1
-Wire Wire Line
-	7400 1200 6700 1200
-Text GLabel 6700 1200 2    50   BiDi ~ 0
+Text GLabel 7200 1200 0    50   BiDi ~ 0
 UART_RX/DIN1
-Wire Wire Line
-	5100 5200 5600 5200
-Text GLabel 5600 5200 0    50   BiDi ~ 0
+Text GLabel 5150 5200 2    50   BiDi ~ 0
 DIN2
-Wire Wire Line
-	4600 6000 5300 6000
 Wire Wire Line
 	4500 5700 4600 5700
 Wire Wire Line
 	4600 5700 4600 6000
 Wire Wire Line
 	4600 6000 4500 6000
-Text GLabel 5300 6000 0    50   BiDi ~ 0
+Text GLabel 4800 6000 2    50   BiDi ~ 0
 UART_TX/DOUT1
-Connection ~ 4600 6000
-Wire Wire Line
-	8600 1200 9300 1200
-Text GLabel 9300 1200 0    50   BiDi ~ 0
+Text GLabel 8800 1200 2    50   BiDi ~ 0
 UART_TX/DOUT1
-Wire Wire Line
-	4600 6400 5300 6400
 Wire Wire Line
 	4500 6400 4600 6400
 Wire Wire Line
 	4600 6400 4600 6700
 Wire Wire Line
 	4600 6700 4500 6700
-Text GLabel 5300 6400 0    50   BiDi ~ 0
+Text GLabel 4800 6400 2    50   BiDi ~ 0
 DOUT2
-Connection ~ 4600 6400
 Wire Wire Line
 	4300 4800 4700 4800
 Wire Wire Line
@@ -551,17 +463,11 @@ Wire Wire Line
 	2900 5200 3000 5200
 Wire Wire Line
 	2900 4800 3000 4800
-Wire Wire Line
-	10700 5100 11000 5100
-Text GLabel 11000 5100 0    50   BiDi ~ 0
+Text GLabel 10800 5100 2    50   BiDi ~ 0
 BOOT0
-Wire Wire Line
-	7400 1300 6700 1300
-Text GLabel 6750 1300 2    50   BiDi ~ 0
+Text GLabel 7200 1300 0    50   BiDi ~ 0
 +VAUX_OUT
-Wire Wire Line
-	3300 1600 4000 1600
-Text GLabel 4000 1600 0    50   BiDi ~ 0
+Text GLabel 3700 1600 2    50   BiDi ~ 0
 RTC_REF
 $Comp
 L IO_connectors_Encoder_user_SW-rescue:DINA4_L-EEZ_DIB_MCU_r3B4-eagle-import #FRAME1
@@ -2376,15 +2282,15 @@ $EndComp
 $Comp
 L IO_connectors_Encoder_user_SW-rescue:ECAPPANASONIC_C-EEZ_DIB_MCU_r3B4-eagle-import C2
 U 1 1 10495867
-P 6500 1600
+P 6300 1600
 AR Path="/185D90C210495867" Ref="C2"  Part="1" 
 AR Path="/5F88C8A0/185D90C210495867" Ref="C2"  Part="1" 
 AR Path="/5F8FDB74/10495867" Ref="C102"  Part="1" 
-F 0 "C102" H 6545 1619 59  0000 L BNN
-F 1 "EEEFK1V220R" H 6545 1419 59  0000 L BNN
-F 2 "EEZ DIB MCU r3B4:PANASONIC_C" H 6500 1600 50  0001 C CNN
-F 3 "" H 6500 1600 50  0001 C CNN
-	1    6500 1600
+F 0 "C102" H 6345 1619 59  0000 L BNN
+F 1 "EEEFK1V220R" H 6345 1419 59  0000 L BNN
+F 2 "EEZ DIB MCU r3B4:PANASONIC_C" H 6300 1600 50  0001 C CNN
+F 3 "" H 6300 1600 50  0001 C CNN
+	1    6300 1600
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -2429,7 +2335,7 @@ Text Notes 7400 6600 0    100  ~ 0
 I/O connectors, User SW, Encoder, Digital I/O
 Text Notes 5350 1475 0    47   ~ 0
 2 AC freq out
-Text Notes 5050 1725 0    47   ~ 0
+Text Notes 4600 1725 0    47   ~ 0
 Gnd 7
 Text Notes 5350 1675 0    47   ~ 0
 6 +5V
@@ -2439,25 +2345,25 @@ Text Notes 5350 1875 0    47   ~ 0
 10 +VAUX
 Text Notes 5350 1575 0    47   ~ 0
 4 +12V
-Text Notes 5050 1525 0    47   ~ 0
+Text Notes 4600 1525 0    47   ~ 0
 +12V 3
-Text Notes 5050 1425 0    47   ~ 0
+Text Notes 4600 1425 0    47   ~ 0
 PE 1
 Wire Notes Line
 	5100 1400 5300 1400
 Text Notes 4500 1325 0    73   ~ 0
 16-pin DIB AUX PS socket
-Text Notes 5050 1625 0    47   ~ 0
+Text Notes 4600 1625 0    47   ~ 0
 +5V 5
-Text Notes 5050 1825 0    47   ~ 0
+Text Notes 4600 1825 0    47   ~ 0
 Gnd 9
 Wire Notes Line
 	5300 1400 5300 2200
-Text Notes 5050 2025 0    47   ~ 0
+Text Notes 4600 2025 0    47   ~ 0
 SSCL (optional) 13
 Text Notes 5350 1975 0    47   ~ 0
 12 PWR_DIRECT
-Text Notes 5050 1925 0    47   ~ 0
+Text Notes 4600 1925 0    47   ~ 0
 PWR_SSTART 11
 Text Notes 5350 2075 0    47   ~ 0
 14 SSDA (optional)
@@ -2465,7 +2371,7 @@ Wire Notes Line
 	5100 2200 5100 1400
 Wire Notes Line
 	5100 2200 5300 2200
-Text Notes 5050 2125 0    47   ~ 0
+Text Notes 4600 2125 0    47   ~ 0
 ~FAULT~ 15
 Text Notes 5350 2175 0    47   ~ 0
 16 +3V3
@@ -2489,7 +2395,7 @@ Text Notes 10550 4000 0    47   ~ 0
 Button cap: 4JWHT
 Text Notes 10550 1275 0    47   ~ 0
 2 Gnd
-Text Notes 10250 1525 0    47   ~ 0
+Text Notes 9800 1575 0    47   ~ 0
 +3V3 7
 Text Notes 10550 1475 0    47   ~ 0
 6 NRESET
@@ -2499,25 +2405,25 @@ Text Notes 10550 1675 0    47   ~ 0
 10 OE_SYNC
 Text Notes 10550 1375 0    47   ~ 0
 4 UART_TX
-Text Notes 10250 1325 0    47   ~ 0
+Text Notes 9800 1375 0    47   ~ 0
 UART_RX 3
-Text Notes 10250 1225 0    47   ~ 0
+Text Notes 9800 1275 0    47   ~ 0
 Gnd 1
 Wire Notes Line
 	10300 1200 10500 1200
 Text Notes 9400 1125 0    73   ~ 0
 40-pin DIB v1.0 backplane socket
-Text Notes 10250 1425 0    47   ~ 0
+Text Notes 9800 1475 0    47   ~ 0
 +Vaux 5
-Text Notes 10250 1625 0    47   ~ 0
+Text Notes 9800 1675 0    47   ~ 0
 SPI3_IRQ 9
 Wire Notes Line
 	10500 1200 10500 3200
-Text Notes 10250 1825 0    47   ~ 0
+Text Notes 9800 1875 0    47   ~ 0
 SPI3_CSB 13
 Text Notes 10550 1775 0    47   ~ 0
 12 I2C_SCL
-Text Notes 10250 1725 0    47   ~ 0
+Text Notes 9800 1775 0    47   ~ 0
 SPI3_CSA 11
 Text Notes 10550 1875 0    47   ~ 0
 14 I2C_SDA
@@ -2525,13 +2431,13 @@ Wire Notes Line
 	10300 3200 10300 1200
 Wire Notes Line
 	10300 3200 10500 3200
-Text Notes 10250 1925 0    47   ~ 0
+Text Notes 9800 1975 0    47   ~ 0
 Gnd 15
 Text Notes 10550 1975 0    47   ~ 0
 16 Gnd
 Text Notes 10550 2075 0    47   ~ 0
 18 SPI3_MISO
-Text Notes 10250 2325 0    47   ~ 0
+Text Notes 9800 2375 0    47   ~ 0
 SPI2_SCLK 23
 Text Notes 10550 2275 0    47   ~ 0
 22 SPI2_CSA
@@ -2541,31 +2447,31 @@ Text Notes 10550 2475 0    47   ~ 0
 26 SPI2_MOSI
 Text Notes 10550 2175 0    47   ~ 0
 20 SPI3_MOSI
-Text Notes 10250 2125 0    47   ~ 0
+Text Notes 9800 2175 0    47   ~ 0
 SPI2_IRQ 19
-Text Notes 10250 2025 0    47   ~ 0
+Text Notes 9800 2075 0    47   ~ 0
 SPI3_SCLK 17
-Text Notes 10250 2225 0    47   ~ 0
+Text Notes 9800 2275 0    47   ~ 0
 SPI2_CSB 21
-Text Notes 10250 2425 0    47   ~ 0
+Text Notes 9800 2475 0    47   ~ 0
 SPI1_IRQ 25
-Text Notes 10250 2625 0    47   ~ 0
+Text Notes 9800 2675 0    47   ~ 0
 Gnd 29
 Text Notes 10550 2575 0    47   ~ 0
 28 SPI1_CSA
-Text Notes 10250 2525 0    47   ~ 0
+Text Notes 9800 2575 0    47   ~ 0
 SPI1_CSB 27
-Text Notes 10250 2725 0    47   ~ 0
+Text Notes 9800 2775 0    47   ~ 0
 SPI1_MISO 31
 Text Notes 10550 2775 0    47   ~ 0
 32 SPI1_SCLK
-Text Notes 10250 2825 0    47   ~ 0
+Text Notes 9800 2875 0    47   ~ 0
 SPI1_MOSI 33
-Text Notes 10250 3025 0    47   ~ 0
+Text Notes 9800 3075 0    47   ~ 0
 +12V 37
-Text Notes 10250 2925 0    47   ~ 0
+Text Notes 9800 2975 0    47   ~ 0
 +5V 35
-Text Notes 10250 3125 0    47   ~ 0
+Text Notes 9800 3175 0    47   ~ 0
 Gnd 39
 Text Notes 10550 2975 0    47   ~ 0
 36 +5V
@@ -2573,19 +2479,19 @@ Text Notes 10550 3075 0    47   ~ 0
 38 +12V
 Text Notes 10550 3175 0    47   ~ 0
 40 Gnd
-Text Notes 1850 4125 0    47   ~ 0
+Text Notes 1250 4175 0    47   ~ 0
 UART_TX/DOUT1 4
-Text Notes 1850 3925 0    47   ~ 0
+Text Notes 1250 3975 0    47   ~ 0
 DIN2 2
-Text Notes 1850 3825 0    47   ~ 0
+Text Notes 1250 3875 0    47   ~ 0
 UART_RX/DIN1 1
 Wire Notes Line
 	1900 3800 2000 3800
 Text Notes 1400 3750 0    73   ~ 0
 5-pin I/O connector
-Text Notes 1850 4025 0    47   ~ 0
+Text Notes 1250 4075 0    47   ~ 0
 Gnd 3
-Text Notes 1850 4225 0    47   ~ 0
+Text Notes 1250 4275 0    47   ~ 0
 DOUT2 5
 Wire Notes Line
 	1900 4300 1900 3800
@@ -2599,4 +2505,100 @@ Text Notes 10550 2875 0    47   ~ 0
 34 SPI3_CSC
 Wire Notes Line
 	1000 3400 11200 3400
+Wire Wire Line
+	1750 2100 2100 2100
+Wire Wire Line
+	1750 2200 1800 2200
+Wire Wire Line
+	1750 2300 2100 2300
+Wire Wire Line
+	3700 2000 3300 2000
+Wire Wire Line
+	3300 2100 3700 2100
+Wire Wire Line
+	3700 2200 3600 2200
+Wire Wire Line
+	3700 1600 3300 1600
+Wire Wire Line
+	5100 4800 5150 4800
+Wire Wire Line
+	5100 5200 5150 5200
+Wire Wire Line
+	4600 6000 4800 6000
+Connection ~ 4600 6000
+Wire Wire Line
+	4800 6400 4600 6400
+Connection ~ 4600 6400
+Wire Wire Line
+	8650 5400 8400 5400
+Connection ~ 8400 5400
+Wire Wire Line
+	8650 4700 8400 4700
+Connection ~ 8400 4700
+Wire Wire Line
+	8600 4000 7300 4000
+Connection ~ 7300 4000
+Wire Wire Line
+	10800 5100 10700 5100
+Text GLabel 9300 4100 1    50   BiDi ~ 0
+USER_SW
+Wire Wire Line
+	7350 2700 7400 2700
+Wire Wire Line
+	7350 2600 7400 2600
+Wire Wire Line
+	7350 2400 7400 2400
+Wire Wire Line
+	7350 2300 7400 2300
+Wire Wire Line
+	7350 2200 7400 2200
+Wire Wire Line
+	7350 2100 7400 2100
+Wire Wire Line
+	7350 2000 7400 2000
+Wire Wire Line
+	7350 1900 7400 1900
+Wire Wire Line
+	7350 1700 7400 1700
+Wire Wire Line
+	7350 1600 7400 1600
+Wire Wire Line
+	7350 1500 7400 1500
+Wire Wire Line
+	7200 1300 7400 1300
+Wire Wire Line
+	7200 1200 7400 1200
+Wire Wire Line
+	6500 1400 6300 1400
+Wire Wire Line
+	6300 1400 6300 1500
+Connection ~ 6500 1400
+Wire Wire Line
+	6300 1800 7300 1800
+Wire Wire Line
+	8800 1200 8600 1200
+Wire Wire Line
+	8600 1300 8800 1300
+Wire Wire Line
+	8800 1400 8600 1400
+Wire Wire Line
+	8600 1500 8800 1500
+Wire Wire Line
+	8800 1600 8600 1600
+Wire Wire Line
+	8600 1700 8800 1700
+Wire Wire Line
+	8800 2600 8600 2600
+Wire Wire Line
+	8800 1900 8600 1900
+Wire Wire Line
+	8600 2000 8800 2000
+Wire Wire Line
+	8800 2100 8600 2100
+Wire Wire Line
+	8600 2200 8800 2200
+Wire Wire Line
+	8800 2300 8600 2300
+Wire Wire Line
+	8600 2400 8800 2400
 $EndSCHEMATC
