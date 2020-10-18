@@ -564,8 +564,6 @@ USER_PROGRAMN
 NoConn ~ 8650 2950
 Text GLabel 10150 1950 2    60   Input ~ 0
 FTDI_nRXLED
-Text GLabel 8650 1650 0    60   Input ~ 0
-OLED_BL
 Text GLabel 10150 2850 2    60   Input ~ 0
 LTDC_FROM_FPGA_B3
 Text GLabel 10150 2750 2    60   Input ~ 0
@@ -574,7 +572,7 @@ Text GLabel 10200 1350 2    60   Input ~ 0
 LTDC_FROM_FPGA_R4
 Text GLabel 8650 1750 0    60   Input ~ 0
 LTDC_FROM_FPGA_R6
-Text GLabel 6200 1650 0    60   Input ~ 0
+Text GLabel 8650 1650 0    60   Input ~ 0
 LTDC_FROM_FPGA_CLK
 Text GLabel 11800 2250 2    60   Input ~ 0
 LTDC_FROM_FPGA_DE
@@ -588,10 +586,6 @@ Text GLabel 10150 2050 2    60   Input ~ 0
 LTDC_FROM_FPGA_G3
 Text GLabel 8650 2350 0    60   Input ~ 0
 LTDC_FROM_FPGA_G2
-Text GLabel 6300 1650 2    60   Input ~ 0
-OLED_BL
-Wire Wire Line
-	6200 1650 6300 1650
 Text GLabel 8650 2750 0    60   Input ~ 0
 LTDC_FROM_FPGA_B5
 Wire Wire Line

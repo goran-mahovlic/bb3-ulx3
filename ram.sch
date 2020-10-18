@@ -90,7 +90,7 @@ SDRAM_nWE
 Text GLabel 8550 5050 0    60   Input ~ 0
 SDRAM_nCS
 Text GLabel 10050 4650 2    60   Input ~ 0
-GN14
+LTDC_FROM_FPGA_DE
 Text GLabel 10050 5450 2    60   Input ~ 0
 GN15
 Text GLabel 8550 5450 0    60   Input ~ 0
