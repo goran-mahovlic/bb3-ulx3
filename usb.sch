@@ -106,26 +106,16 @@ Text GLabel 10150 2550 2    60   Input ~ 0
 FTDI_nDTR
 Text GLabel 10150 2350 2    60   Input ~ 0
 WIFI_GPIO0
-Text GLabel 10150 1450 2    60   Input ~ 0
-WIFI_EN
 Text GLabel 8650 2850 0    60   Input ~ 0
 OLED_DC
 Text GLabel 8650 2650 0    60   Input ~ 0
 OLED_CS
-Text GLabel 8650 1550 0    60   Input ~ 0
-SD_D0
 Text GLabel 10150 1750 2    60   Input ~ 0
 SD_D2
 Text GLabel 8650 1850 0    60   Input ~ 0
 SD_D3
-Text GLabel 8650 1350 0    60   Input ~ 0
-SD_CLK
-Text GLabel 10150 1850 2    60   Input ~ 0
-SD_CMD
 Text GLabel 10150 2150 2    60   Input ~ 0
 SD_WP
-Text GLabel 10150 2250 2    60   Input ~ 0
-SD_CD
 Text Notes 7200 3150 0    60   ~ 0
 WiFi programming pins:\nTXD RXD RTS DTR
 Text Notes 7400 3750 0    60   ~ 0
@@ -574,8 +564,6 @@ Text GLabel 8650 1750 0    60   Input ~ 0
 LTDC_FROM_FPGA_R6
 Text GLabel 8650 1650 0    60   Input ~ 0
 LTDC_FROM_FPGA_CLK
-Text GLabel 11800 2250 2    60   Input ~ 0
-LTDC_FROM_FPGA_DE
 Text GLabel 8650 2550 0    60   Input ~ 0
 LTDC_FROM_FPGA_G7
 Text GLabel 8650 1950 0    60   Input ~ 0
@@ -594,4 +582,14 @@ Text GLabel 8650 2050 0    60   Input ~ 0
 LTDC_FROM_FPGA_G4
 Text GLabel 10150 1650 2    60   Input ~ 0
 LTDC_FROM_FPGA_R7
+Text GLabel 10150 2250 2    50   BiDi ~ 0
+SD_FROM_FPGA_DETECT
+Text GLabel 10150 1850 2    50   BiDi ~ 0
+SDMMC1_FROM_FPGA_CMD
+Text GLabel 8650 1550 0    50   BiDi ~ 0
+SDMMC1_FROM_FPGA_D0
+Text GLabel 8650 1350 0    50   BiDi ~ 0
+SDMMC1_FROM_FPGA_CK
+Text GLabel 10150 1450 2    60   Input ~ 0
+LTDC_TO_FPGA_G7
 $EndSCHEMATC
