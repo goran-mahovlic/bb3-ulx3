@@ -169,10 +169,6 @@ Text GLabel 1350 2300 0    60   Input ~ 0
 GPDI_CEC
 Text GLabel 4350 2900 2    60   Input ~ 0
 GN22
-Text GLabel 4350 2500 2    60   Input ~ 0
-GN23
-Text GLabel 4350 2600 2    60   Input ~ 0
-GN24
 Text GLabel 4350 3000 2    60   Input ~ 0
 GN25
 Text GLabel 4350 3300 2    60   Input ~ 0
@@ -183,8 +179,6 @@ Text GLabel 2850 3200 0    60   Input ~ 0
 GP27
 Text GLabel 2850 2600 0    60   Input ~ 0
 GP24
-Text GLabel 2850 2500 0    60   Input ~ 0
-GP23
 Text GLabel 2850 3300 0    60   Input ~ 0
 GP26
 Text GLabel 2850 2900 0    60   Input ~ 0
@@ -436,4 +430,10 @@ PCB v1.8.1 and higher accept FCI 10029449-111RLF\nwww.amphenol-icc.com\nmouser P
 NoConn ~ 2850 3700
 NoConn ~ 2850 3800
 NoConn ~ 4350 3700
+Text GLabel 4350 2500 2    50   BiDi ~ 0
+SPI4_FROM_FPGA_MISO
+Text GLabel 2850 2500 0    50   BiDi ~ 0
+SPI4_FROM_FPGA_MOSI
+Text GLabel 4350 2600 2    50   BiDi ~ 0
+SPI2_FROM_FPGA_CSA
 $EndSCHEMATC

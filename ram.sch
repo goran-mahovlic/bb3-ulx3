@@ -23,8 +23,6 @@ Text GLabel 8550 5550 0    60   Input ~ 0
 SDRAM_D3
 Text GLabel 10050 5150 2    60   Input ~ 0
 SDRAM_D4
-Text GLabel 10050 4750 2    60   Input ~ 0
-SDRAM_D5
 Text GLabel 10050 4550 2    60   Input ~ 0
 SDRAM_D6
 Text GLabel 10050 4950 2    60   Input ~ 0
@@ -91,28 +89,6 @@ Text GLabel 8550 5050 0    60   Input ~ 0
 SDRAM_nCS
 Text GLabel 10050 4650 2    60   Input ~ 0
 LTDC_FROM_FPGA_DE
-Text GLabel 10050 5650 2    60   Input ~ 0
-GN16
-Text GLabel 10050 3350 2    60   Input ~ 0
-GN18
-Text GLabel 10050 3950 2    60   Input ~ 0
-GN21
-Text GLabel 10050 3750 2    60   Input ~ 0
-GN20
-Text GLabel 8550 3350 0    60   Input ~ 0
-GP18
-Text GLabel 8550 3950 0    60   Input ~ 0
-GP21
-Text GLabel 8550 3750 0    60   Input ~ 0
-GP20
-Text GLabel 10050 3550 2    60   Input ~ 0
-GN19
-Text GLabel 8550 3550 0    60   Input ~ 0
-GP19
-Text GLabel 10050 5850 2    60   Input ~ 0
-GN17
-Text GLabel 10050 5550 2    60   Input ~ 0
-ADC_SCLK
 Text GLabel 8550 3850 0    60   Input ~ 0
 USB_FPGA_D+
 Text GLabel 10050 3850 2    60   Input ~ 0
@@ -151,8 +127,6 @@ F 5 "842-LFE5U85F6BG381C" H 9300 5250 60  0001 C CNN "Mouser"
 $EndComp
 Text GLabel 8550 3450 0    60   Input ~ 0
 SHUTDOWN
-Text GLabel 10050 3450 2    60   Input ~ 0
-BTN_R
 NoConn ~ 8550 4050
 NoConn ~ 10050 4050
 NoConn ~ 8550 6150
@@ -174,14 +148,30 @@ Text GLabel 8550 5850 0    50   BiDi ~ 0
 SPI2_TO_FPGA_CLK
 Text GLabel 10050 5350 2    50   BiDi ~ 0
 SPI2_TO_FPGA_MOSI
-Wire Wire Line
-	6150 4550 6050 4550
-Wire Wire Line
-	6150 4450 6050 4450
-Wire Wire Line
-	6150 4350 6050 4350
-Wire Wire Line
-	6150 4250 6050 4250
-Wire Wire Line
-	6050 4150 6150 4150
+Text GLabel 8550 3350 0    50   BiDi ~ 0
+SPI5_FROM_FPGA_IRQ
+Text GLabel 8550 3550 0    50   BiDi ~ 0
+SPI5_FROM_FPGA_CSA
+Text GLabel 8550 3750 0    50   BiDi ~ 0
+SPI5_FROM_FPGA_CSB
+Text GLabel 8550 3950 0    50   BiDi ~ 0
+SPI4_FROM_FPGA_IRQ
+Text GLabel 10050 3450 2    50   BiDi ~ 0
+SPI4_FROM_FPGA_CSB
+Text GLabel 10050 3750 2    50   BiDi ~ 0
+SPI2_FROM_FPGA_IRQ
+Text GLabel 10050 3950 2    50   BiDi ~ 0
+SPI2_FROM_FPGA_CSB
+Text GLabel 10050 5550 2    50   BiDi ~ 0
+SPI2_FROM_FPGA_MISO
+Text GLabel 10050 5650 2    50   BiDi ~ 0
+SPI2_FROM_FPGA_MOSI
+Text GLabel 10050 3550 2    50   BiDi ~ 0
+SPI5_FROM_FPGA_MISO
+Text GLabel 10050 5850 2    50   BiDi ~ 0
+SPI5_FROM_FPGA_MOSI
+Text GLabel 10050 3350 2    50   BiDi ~ 0
+SPI4_FROM_FPGA_CSA
+Text GLabel 10050 4750 2    60   Input ~ 0
+SDRAM_D5
 $EndSCHEMATC

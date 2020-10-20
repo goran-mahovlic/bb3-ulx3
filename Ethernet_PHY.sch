@@ -471,8 +471,6 @@ Wire Wire Line
 	7700 4000 7700 4800
 Wire Wire Line
 	9400 4800 7700 4800
-Text GLabel 1600 2000 0    50   BiDi ~ 0
-MCLK_25
 Wire Wire Line
 	3200 2600 2900 2600
 Wire Wire Line
@@ -1842,4 +1840,6 @@ Wire Wire Line
 	2200 4800 1500 4800
 Wire Wire Line
 	1500 4900 2200 4900
+Text GLabel 1600 2000 0    60   Input ~ 0
+CLK_TO_ETH
 $EndSCHEMATC

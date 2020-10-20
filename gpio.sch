@@ -17,20 +17,12 @@ Text GLabel 5700 2600 2    60   Input ~ 0
 GN6
 Text GLabel 4200 2600 0    60   Input ~ 0
 GP6
-Text GLabel 5700 1800 2    60   Input ~ 0
-GN0
-Text GLabel 5700 1900 2    60   Input ~ 0
-GN1
-Text GLabel 5700 2000 2    60   Input ~ 0
-GN2
 Text GLabel 5700 2300 2    60   Input ~ 0
 GN4
 Text GLabel 4200 1800 0    60   Input ~ 0
-GP0
-Text GLabel 4200 1900 0    60   Input ~ 0
-GP1
+CLK_TO_ETH
 Text GLabel 4200 2000 0    60   Input ~ 0
-GP2
+CLK_TO_STM32
 Text GLabel 4200 2300 0    60   Input ~ 0
 GP4
 Text GLabel 4200 2400 0    60   Input ~ 0
@@ -86,27 +78,25 @@ NoConn ~ 4200 3100
 NoConn ~ 5700 3000
 Text GLabel 5700 4300 2    60   Input ~ 0
 LTDC_TO_FPGA_R3
-Text GLabel 5700 5000 2    60   Input ~ 0
+Text GLabel 4200 4100 0    60   Input ~ 0
 LTDC_TO_FPGA_R4
 Text GLabel 4200 4000 0    60   Input ~ 0
 LTDC_TO_FPGA_R5
-Text GLabel 4200 4200 0    60   Input ~ 0
+Text GLabel 5700 4200 2    60   Input ~ 0
 LTDC_TO_FPGA_R6
-Text GLabel 5700 4800 2    60   Input ~ 0
-LTDC_TO_FPGA_R7
-Text GLabel 4200 5100 0    60   Input ~ 0
-LTDC_TO_FPGA_G3
-Text GLabel 5700 4700 2    60   Input ~ 0
-LTDC_TO_FPGA_G4
 Text GLabel 5700 4900 2    60   Input ~ 0
+LTDC_TO_FPGA_R7
+Text GLabel 4200 4600 0    60   Input ~ 0
+LTDC_TO_FPGA_G4
+Text GLabel 5700 4800 2    60   Input ~ 0
 LTDC_TO_FPGA_G5
-Text GLabel 5700 2200 2    60   Input ~ 0
+Text GLabel 5700 5000 2    60   Input ~ 0
 LTDC_TO_FPGA_G6
 Text GLabel 5700 4400 2    60   Input ~ 0
 LTDC_TO_FPGA_B7
 Text GLabel 4200 4400 0    60   Input ~ 0
 LTDC_TO_FPGA_B6
-Text GLabel 5700 4200 2    60   Input ~ 0
+Text GLabel 4200 4200 0    60   Input ~ 0
 LTDC_TO_FPGA_B5
 Text GLabel 4200 4300 0    60   Input ~ 0
 LTDC_TO_FPGA_B4
@@ -118,26 +108,18 @@ Text GLabel 4200 4900 0    60   Input ~ 0
 LTDC_TO_FPGA_CLK
 Text GLabel 5700 4000 2    60   Input ~ 0
 LTDC_TO_FPGA_DE
-Text GLabel 4200 4100 0    60   Input ~ 0
+Text GLabel 5700 4700 2    60   Input ~ 0
 LTDC_TO_FPGA_HSYNC
-Text GLabel 4200 4600 0    60   Input ~ 0
+Text GLabel 4200 4700 0    60   Input ~ 0
 LTDC_TO_FPGA_VSYNC
 Text GLabel 4100 2800 0    60   Input ~ 0
 LTDC_FROM_FPGA_R3
 Wire Wire Line
 	4100 2800 4200 2800
-Text GLabel 4200 4700 0    60   Input ~ 0
+Text GLabel 5700 2200 2    60   Input ~ 0
 LTDC_FROM_FPGA_R5
 Text GLabel 5700 2900 2    60   Input ~ 0
 FREE4
-Text GLabel 5700 3600 2    60   Input ~ 0
-FREE6
-Text GLabel 5700 4100 2    60   Input ~ 0
-FREE8
-Text GLabel 5700 5100 2    60   Input ~ 0
-FREE10
-Text GLabel 4200 5000 0    50   BiDi ~ 0
-SPI4_TO_FPGA_CLK
 Text GLabel 5700 3700 2    50   BiDi ~ 0
 SPI4_TO_FPGA_CSB
 Text GLabel 4200 3700 0    50   BiDi ~ 0
@@ -150,14 +132,34 @@ Text GLabel 4200 2900 0    50   BiDi ~ 0
 SPI5_TO_FPGA_MISO
 Text GLabel 5700 2800 2    50   BiDi ~ 0
 SPI5_TO_FPGA_MOSI
-Text GLabel 4200 4500 0    50   BiDi ~ 0
+Text GLabel 4200 5000 0    50   BiDi ~ 0
 SPI5_TO_FPGA_CSB
 Text GLabel 5700 4500 2    50   BiDi ~ 0
 SPI4_TO_FPGA_CSA
 Text GLabel 4200 3800 0    50   BiDi ~ 0
 SPI4_TO_FPGA_MISO
-Text GLabel 4200 3900 0    50   BiDi ~ 0
+Text GLabel 4200 4500 0    50   BiDi ~ 0
 SPI4_TO_FPGA_IRQ
+Text GLabel 4200 2200 0    60   Input ~ 0
+FREE_TOP
+Text GLabel 4200 5100 0    60   Input ~ 0
+LTDC_TO_FPGA_G7
+Text GLabel 4200 1900 0    50   BiDi ~ 0
+SPI4_TO_FPGA_CLK
+Text GLabel 4200 3900 0    60   Input ~ 0
+FREE_LEFT_10
+Text GLabel 5700 5100 2    60   Input ~ 0
+FREE10
+Text GLabel 5700 4100 2    60   Input ~ 0
+FREE8
 Text GLabel 5700 3900 2    60   Input ~ 0
 FREE5
+Text GLabel 5700 3600 2    60   Input ~ 0
+FREE6
+Text GLabel 5700 2000 2    50   BiDi ~ 0
+SPI5_FROM_FPGA_CLK
+Text GLabel 5700 1900 2    50   BiDi ~ 0
+SPI4_FROM_FPGA_CLK
+Text GLabel 5700 1800 2    50   BiDi ~ 0
+SPI2_FROM_FPGA_CLK
 $EndSCHEMATC

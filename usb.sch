@@ -560,7 +560,7 @@ Text GLabel 10150 2750 2    60   Input ~ 0
 LTDC_FROM_FPGA_B6
 Text GLabel 10200 1350 2    60   Input ~ 0
 LTDC_FROM_FPGA_R4
-Text GLabel 8650 1750 0    60   Input ~ 0
+Text GLabel 8650 1350 0    60   Input ~ 0
 LTDC_FROM_FPGA_R6
 Text GLabel 8650 1650 0    60   Input ~ 0
 LTDC_FROM_FPGA_CLK
@@ -588,8 +588,8 @@ Text GLabel 10150 1850 2    50   BiDi ~ 0
 SDMMC1_FROM_FPGA_CMD
 Text GLabel 8650 1550 0    50   BiDi ~ 0
 SDMMC1_FROM_FPGA_D0
-Text GLabel 8650 1350 0    50   BiDi ~ 0
+Text GLabel 8650 1750 0    50   BiDi ~ 0
 SDMMC1_FROM_FPGA_CK
 Text GLabel 10150 1450 2    60   Input ~ 0
-LTDC_TO_FPGA_G7
+LTDC_TO_FPGA_G3
 $EndSCHEMATC
