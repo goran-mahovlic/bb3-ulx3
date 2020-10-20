@@ -440,8 +440,6 @@ Connection ~ 3500 6400
 Wire Wire Line
 	1900 2200 2100 2200
 Wire Wire Line
-	3300 2200 3500 2200
-Wire Wire Line
 	3700 3900 2400 3900
 Wire Wire Line
 	2500 4800 2400 4800
@@ -1944,20 +1942,6 @@ F 3 "" H 1800 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IO_connectors_Encoder_user_SW-rescue:JP2-NOCUT-EEZ_DIB_MCU_r3B4-eagle-import JP2
-U 1 1 FA93C76E
-P 3500 2200
-AR Path="/4804D7FCFA93C76E" Ref="JP2"  Part="1" 
-AR Path="/5F88C8A0/4804D7FCFA93C76E" Ref="JP2"  Part="1" 
-AR Path="/5F8FDB74/FA93C76E" Ref="JP102"  Part="1" 
-F 0 "JP102" H 3475 2225 59  0000 L BNN
-F 1 "JP2-NOCUT" H 3500 2200 50  0001 C CNN
-F 2 "EEZ DIB MCU r3B4:JP2-NOCUT" H 3500 2200 50  0001 C CNN
-F 3 "" H 3500 2200 50  0001 C CNN
-	1    3500 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L IO_connectors_Encoder_user_SW-rescue:CD74HC4050PWR-EEZ_DIB_MCU_r3B4-eagle-import IC3
 U 1 1 5ED25CA7
 P 4300 5700
@@ -2516,8 +2500,6 @@ Wire Wire Line
 Wire Wire Line
 	3300 2100 3700 2100
 Wire Wire Line
-	3700 2200 3600 2200
-Wire Wire Line
 	3700 1600 3300 1600
 Wire Wire Line
 	5100 4800 5150 4800
@@ -2601,4 +2583,6 @@ Wire Wire Line
 	8800 2300 8600 2300
 Wire Wire Line
 	8600 2400 8800 2400
+Wire Wire Line
+	3300 2200 3700 2200
 $EndSCHEMATC
