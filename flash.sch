@@ -514,8 +514,8 @@ Text GLabel 6500 3900 0    60   Input ~ 0
 LTDC_FROM_FPGA_HSYNC
 Text GLabel 8000 3900 2    60   Input ~ 0
 LTDC_FROM_FPGA_VSYNC
-Text GLabel 6500 3800 0    60   Input ~ 0
-LTDC_FROM_FPGA_B4
 Text GLabel 8000 3800 2    60   Input ~ 0
 LTDC_FROM_FPGA_B7
+Text GLabel 6500 3800 0    60   Input ~ 0
+LTDC_FROM_FPGA_B5
 $EndSCHEMATC
