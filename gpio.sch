@@ -82,7 +82,7 @@ Text GLabel 4200 4100 0    60   Input ~ 0
 LTDC_TO_FPGA_R4
 Text GLabel 4200 4000 0    60   Input ~ 0
 LTDC_TO_FPGA_R5
-Text GLabel 5700 4200 2    60   Input ~ 0
+Text GLabel 5700 4400 2    60   Input ~ 0
 LTDC_TO_FPGA_R6
 Text GLabel 4200 4900 0    60   Input ~ 0
 LTDC_TO_FPGA_R7
@@ -92,17 +92,17 @@ Text GLabel 5700 4800 2    60   Input ~ 0
 LTDC_TO_FPGA_G5
 Text GLabel 5700 5000 2    60   Input ~ 0
 LTDC_TO_FPGA_G6
-Text GLabel 5700 4400 2    60   Input ~ 0
-LTDC_TO_FPGA_B7
-Text GLabel 4200 4400 0    60   Input ~ 0
-LTDC_TO_FPGA_B6
 Text GLabel 4200 4200 0    60   Input ~ 0
+LTDC_TO_FPGA_B7
+Text GLabel 5700 4200 2    60   Input ~ 0
+LTDC_TO_FPGA_B6
+Text GLabel 5700 3800 2    60   Input ~ 0
 LTDC_TO_FPGA_B5
 Text GLabel 4200 4300 0    60   Input ~ 0
 LTDC_TO_FPGA_B4
 Text GLabel 5700 4600 2    60   Input ~ 0
 LTDC_TO_FPGA_B3
-Text GLabel 5700 3800 2    60   Input ~ 0
+Text GLabel 4200 4400 0    60   Input ~ 0
 LTDC_TO_FPGA_G2
 Text GLabel 5700 4900 2    60   Input ~ 0
 LTDC_TO_FPGA_CLK
