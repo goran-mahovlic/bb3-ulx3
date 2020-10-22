@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:ulx3s-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -181,4 +182,47 @@ NoConn ~ 5700 3900
 NoConn ~ 5700 3600
 Text GLabel 5700 2200 2    60   Input ~ 0
 LTDC_FROM_FPGA_R4
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J1
+U 1 1 61FF604B
+P 8450 3700
+F 0 "J1" H 8500 3075 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 8500 3166 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Horizontal" H 8450 3700 50  0001 C CNN
+F 3 "~" H 8450 3700 50  0001 C CNN
+	1    8450 3700
+	-1   0    0    1   
+$EndComp
+Text GLabel 8150 3300 0    60   Input ~ 0
++3V3
+Text GLabel 8150 3400 0    60   Input ~ 0
++2V5
+Text GLabel 8150 3500 0    60   Input ~ 0
++1V1
+Text GLabel 8650 3300 2    60   Input ~ 0
+GND
+Text GLabel 8650 3400 2    60   Input ~ 0
+GND
+Text GLabel 8650 3500 2    60   Input ~ 0
+GND
+Text GLabel 8150 3800 0    60   Input ~ 0
+S_0_P
+Text GLabel 8150 3900 0    60   Input ~ 0
+S_0_N
+Text GLabel 8150 3600 0    60   Input ~ 0
+S_C_P
+Text GLabel 8150 3700 0    60   Input ~ 0
+S_C_N
+Text GLabel 8150 4000 0    60   Input ~ 0
+S_1_P
+Text GLabel 8650 4000 2    60   Input ~ 0
+S_1_N
+Text GLabel 8650 3600 2    60   Input ~ 0
+S_2_P
+Text GLabel 8650 3700 2    60   Input ~ 0
+S_2_N
+Text GLabel 8650 3800 2    60   Input ~ 0
+S_3_P
+Text GLabel 8650 3900 2    60   Input ~ 0
+S_3_N
 $EndSCHEMATC

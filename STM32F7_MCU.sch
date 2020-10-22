@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:ulx3s-cache
+EELAYER 29 0
 EELAYER END
 $Descr User 12325 9925
 encoding utf-8
@@ -1736,7 +1737,7 @@ AR Path="/5F88BD9A/B45261B7AF9FBE92" Ref="B101"  Part="1"
 AR Path="/5F88BD9A/AF9FBE92" Ref="B101"  Part="1" 
 F 0 "B101" H 2850 6625 59  0000 L BNN
 F 1 "DS1092-10-W6L" H 2650 6300 59  0000 L BNN
-F 2 "EEZ DIB MCU r3B4:DS1092-10-W6L" H 2900 6500 50  0001 C CNN
+F 2 "Battery:Battery_Panasonic_CR1025-VSK_Vertical_CircularHoles" H 2900 6500 50  0001 C CNN
 F 3 "" H 2900 6500 50  0001 C CNN
 	1    2900 6500
 	1    0    0    -1  

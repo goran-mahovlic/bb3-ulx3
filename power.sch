@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:ulx3s-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1599,9 +1600,9 @@ Wire Wire Line
 Wire Wire Line
 	7650 1050 7750 1050
 Text GLabel 4700 950  1    60   Input ~ 0
-2V5_3V3
++3V3
 Text GLabel 7350 950  1    60   Input ~ 0
-2V5_3V3
++3V3
 $Comp
 L Device:C C50
 U 1 1 5ABCEAC4
@@ -1700,7 +1701,7 @@ F 4 "CX0603MRX7R8BB223" H 4000 7100 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Text GLabel 3250 6950 1    60   Input ~ 0
-2V5_3V3
++3V3
 $Comp
 L power:GND #PWR034
 U 1 1 5ABCECEB
@@ -1727,7 +1728,7 @@ F 4 "CX0603MRX7R8BB223" H 3500 7100 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Text GLabel 3500 6950 1    60   Input ~ 0
-2V5_3V3
++3V3
 Text Notes 2850 7550 0    60   ~ 0
 Capacitors near J1,2 connector
 $Comp
@@ -2125,9 +2126,9 @@ F 6 "595-TLV62569DBVR" H 8050 5800 50  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 Text GLabel 6300 4600 1    60   Input ~ 0
-2V5_3V3
++3V3
 Text GLabel 6050 4600 1    60   Input ~ 0
-2V5_3V3
++3V3
 $Comp
 L power:+3V3 #PWR0170
 U 1 1 5AF3DD94
