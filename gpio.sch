@@ -145,18 +145,10 @@ Text GLabel 4200 5100 0    60   Input ~ 0
 LTDC_TO_FPGA_G7
 Text GLabel 4200 1900 0    50   BiDi ~ 0
 SPI4_TO_FPGA_CLK
-Text GLabel 4200 3900 0    60   Input ~ 0
-FREE_LEFT_10
-Text GLabel 5700 5100 2    60   Input ~ 0
-FREE10
 Text GLabel 5700 4100 2    60   Input ~ 0
 FREE8
-Text GLabel 5700 3900 2    60   Input ~ 0
-FREE5
 Text GLabel 5700 3600 2    60   Input ~ 0
 FREE6
-Text GLabel 5700 2000 2    50   BiDi ~ 0
-SPI5_FROM_FPGA_CLK
 Text GLabel 5700 1900 2    50   BiDi ~ 0
 SPI4_FROM_FPGA_CLK
 Text GLabel 5700 1800 2    50   BiDi ~ 0
@@ -175,10 +167,7 @@ NoConn ~ 5700 2500
 NoConn ~ 5700 2400
 NoConn ~ 5700 2300
 NoConn ~ 5700 2100
-NoConn ~ 4200 3900
-NoConn ~ 5700 5100
 NoConn ~ 5700 4100
-NoConn ~ 5700 3900
 NoConn ~ 5700 3600
 Text GLabel 5700 2200 2    60   Input ~ 0
 LTDC_FROM_FPGA_R4
@@ -225,4 +214,10 @@ Text GLabel 8650 3800 2    60   Input ~ 0
 S_3_P
 Text GLabel 8650 3900 2    60   Input ~ 0
 S_3_N
+Text GLabel 5700 5100 2    50   BiDi ~ 0
+SPI2_TO_FPGA_CLK
+Text GLabel 5700 3900 2    50   BiDi ~ 0
+SPI2_TO_FPGA_IRQ
+Text GLabel 4200 3900 0    50   BiDi ~ 0
+SPI2_TO_FPGA_CSB
 $EndSCHEMATC

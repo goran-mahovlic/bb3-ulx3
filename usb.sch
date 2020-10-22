@@ -103,8 +103,6 @@ Text GLabel 10150 2650 2    60   Input ~ 0
 FTDI_TXD
 Text GLabel 10150 2450 2    60   Input ~ 0
 FTDI_nRTS
-Text GLabel 10150 2550 2    60   Input ~ 0
-FTDI_nDTR
 Text GLabel 10150 2350 2    60   Input ~ 0
 WIFI_GPIO0
 Text GLabel 8650 2850 0    60   Input ~ 0
@@ -601,4 +599,6 @@ Text GLabel 8650 2550 0    60   Input ~ 0
 LTDC_FROM_FPGA_G6
 Text GLabel 8650 2750 0    60   Input ~ 0
 LTDC_FROM_FPGA_B4
+Text GLabel 10150 2550 2    50   BiDi ~ 0
+SPI5_TO_FPGA_IRQ
 $EndSCHEMATC
