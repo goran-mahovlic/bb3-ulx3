@@ -2141,7 +2141,7 @@ F 3 "" H 3100 4200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 3100 4050 1    60   Input ~ 0
-2V5_3V3
++3V3
 Text Notes 600  6600 0    60   ~ 0
 C56*C57/(C56+C57)+4.5pF=6pF\n4.5pF=3pF chip + 1pF crystal + 0.5pF PCB
 $Comp
