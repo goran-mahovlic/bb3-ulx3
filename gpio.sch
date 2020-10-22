@@ -14,36 +14,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 5700 2600 2    60   Input ~ 0
-GN6
-Text GLabel 4200 2600 0    60   Input ~ 0
-GP6
-Text GLabel 5700 2300 2    60   Input ~ 0
-GN4
 Text GLabel 4200 1800 0    60   Input ~ 0
 CLK_TO_ETH
 Text GLabel 4200 2000 0    60   Input ~ 0
 CLK_TO_STM32
-Text GLabel 4200 2300 0    60   Input ~ 0
-GP4
-Text GLabel 4200 2400 0    60   Input ~ 0
-GP5
-Text GLabel 5700 2400 2    60   Input ~ 0
-GN5
-Text GLabel 5700 2100 2    60   Input ~ 0
-GN3
-Text GLabel 4200 2100 0    60   Input ~ 0
-GP3
 Text Notes 950  7550 0    60   ~ 0
 GPIO route only A/B pairs as those are differential bidirectional\ndon't route C/D pairs to GPIO as those can be differential input only\nBANK0,1 are single-ended (non-differential)
-Text GLabel 4200 2500 0    60   Input ~ 0
-SW1
-Text GLabel 5700 2500 2    60   Input ~ 0
-SW2
-Text GLabel 5700 2700 2    60   Input ~ 0
-SW3
-Text GLabel 4200 2700 0    60   Input ~ 0
-SW4
 $Comp
 L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 6 1 5A0783C9
@@ -117,8 +93,6 @@ Text GLabel 4100 2800 0    60   Input ~ 0
 LTDC_FROM_FPGA_R3
 Wire Wire Line
 	4100 2800 4200 2800
-Text GLabel 5700 2900 2    60   Input ~ 0
-FREE4
 Text GLabel 5700 3700 2    50   BiDi ~ 0
 SPI4_TO_FPGA_CSB
 Text GLabel 4200 3700 0    50   BiDi ~ 0
@@ -139,16 +113,10 @@ Text GLabel 4200 3800 0    50   BiDi ~ 0
 SPI4_TO_FPGA_MISO
 Text GLabel 4200 4500 0    50   BiDi ~ 0
 SPI4_TO_FPGA_IRQ
-Text GLabel 4200 2200 0    60   Input ~ 0
-FREE_TOP
 Text GLabel 4200 5100 0    60   Input ~ 0
 LTDC_TO_FPGA_G7
 Text GLabel 4200 1900 0    50   BiDi ~ 0
 SPI4_TO_FPGA_CLK
-Text GLabel 5700 4100 2    60   Input ~ 0
-FREE8
-Text GLabel 5700 3600 2    60   Input ~ 0
-FREE6
 Text GLabel 5700 1900 2    50   BiDi ~ 0
 SPI4_FROM_FPGA_CLK
 Text GLabel 5700 1800 2    50   BiDi ~ 0
@@ -214,10 +182,9 @@ Text GLabel 8650 3800 2    60   Input ~ 0
 S_3_P
 Text GLabel 8650 3900 2    60   Input ~ 0
 S_3_N
-Text GLabel 5700 5100 2    50   BiDi ~ 0
-SPI2_TO_FPGA_CLK
 Text GLabel 5700 3900 2    50   BiDi ~ 0
 SPI2_TO_FPGA_IRQ
-Text GLabel 4200 3900 0    50   BiDi ~ 0
-SPI2_TO_FPGA_CSB
+NoConn ~ 5700 2000
+NoConn ~ 4200 3900
+NoConn ~ 5700 5100
 $EndSCHEMATC

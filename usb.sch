@@ -99,22 +99,6 @@ Wire Wire Line
 	1800 2750 2150 2750
 Wire Wire Line
 	1800 2850 2150 2850
-Text GLabel 10150 2650 2    60   Input ~ 0
-FTDI_TXD
-Text GLabel 10150 2450 2    60   Input ~ 0
-FTDI_nRTS
-Text GLabel 10150 2350 2    60   Input ~ 0
-WIFI_GPIO0
-Text GLabel 8650 2850 0    60   Input ~ 0
-OLED_DC
-Text GLabel 8650 2650 0    60   Input ~ 0
-OLED_CS
-Text GLabel 10150 1750 2    60   Input ~ 0
-SD_D2
-Text GLabel 8650 1850 0    60   Input ~ 0
-SD_D3
-Text GLabel 10150 2150 2    60   Input ~ 0
-SD_WP
 Text Notes 7200 3150 0    60   ~ 0
 WiFi programming pins:\nTXD RXD RTS DTR
 Text Notes 7400 3750 0    60   ~ 0
@@ -391,10 +375,6 @@ F 3 "" H 4300 1150 50  0001 C CNN
 	1    4300 1150
 	1    0    0    -1  
 $EndComp
-Text GLabel 8650 2150 0    60   Input ~ 0
-WIFI_GPIO19
-Text GLabel 8650 2450 0    60   Input ~ 0
-WIFI_GPIO27
 Text GLabel 1600 4850 0    60   Input ~ 0
 USB_FPGA_PULL_D+
 Text GLabel 1600 5450 0    60   Input ~ 0
@@ -551,8 +531,6 @@ US2_ID to RTC\non "power" sheet
 Text GLabel 8650 2250 0    60   Input ~ 0
 USER_PROGRAMN
 NoConn ~ 8650 2950
-Text GLabel 10150 1950 2    60   Input ~ 0
-FTDI_nRXLED
 Text GLabel 10150 2850 2    60   Input ~ 0
 LTDC_FROM_FPGA_B3
 Text GLabel 10150 2750 2    60   Input ~ 0
@@ -569,7 +547,7 @@ Wire Wire Line
 	10150 1350 10200 1350
 Text GLabel 8650 2050 0    60   Input ~ 0
 LTDC_FROM_FPGA_G4
-Text GLabel 8650 1350 0    60   Input ~ 0
+Text GLabel 8650 2850 0    60   Input ~ 0
 LTDC_FROM_FPGA_R7
 Text GLabel 8650 1750 0    50   BiDi ~ 0
 SDMMC1_FROM_FPGA_CMD
@@ -577,10 +555,8 @@ Text GLabel 10150 2250 2    50   BiDi ~ 0
 SDMMC1_FROM_FPGA_D0
 Text GLabel 8650 2350 0    50   BiDi ~ 0
 SDMMC1_FROM_FPGA_CK
-NoConn ~ 10150 1750
 NoConn ~ 10150 2150
 NoConn ~ 10150 2350
-NoConn ~ 8650 2850
 NoConn ~ 8650 2650
 NoConn ~ 8650 2450
 NoConn ~ 8650 2150
@@ -601,4 +577,11 @@ Text GLabel 8650 2750 0    60   Input ~ 0
 LTDC_FROM_FPGA_B4
 Text GLabel 10150 2550 2    50   BiDi ~ 0
 SPI5_TO_FPGA_IRQ
+Text GLabel 10150 1750 2    50   BiDi ~ 0
+SPI2_TO_FPGA_CSB
+Text GLabel 8650 1350 0    50   BiDi ~ 0
+SPI2_TO_FPGA_CLK
+NoConn ~ 10150 1950
+NoConn ~ 10150 2450
+NoConn ~ 10150 2650
 $EndSCHEMATC
