@@ -162,29 +162,29 @@ Text GLabel 8650 3400 2    60   Input ~ 0
 GND
 Text GLabel 8650 3500 2    60   Input ~ 0
 GND
-Text GLabel 8150 3800 0    60   Input ~ 0
-S_0_P
-Text GLabel 8150 3900 0    60   Input ~ 0
-S_0_N
-Text GLabel 8150 3600 0    60   Input ~ 0
-S_C_P
-Text GLabel 8150 3700 0    60   Input ~ 0
-S_C_N
-Text GLabel 8150 4000 0    60   Input ~ 0
-S_1_P
-Text GLabel 8650 4000 2    60   Input ~ 0
-S_1_N
-Text GLabel 8650 3600 2    60   Input ~ 0
-S_2_P
-Text GLabel 8650 3700 2    60   Input ~ 0
-S_2_N
-Text GLabel 8650 3800 2    60   Input ~ 0
-S_3_P
-Text GLabel 8650 3900 2    60   Input ~ 0
-S_3_N
 Text GLabel 5700 3900 2    50   BiDi ~ 0
 SPI2_TO_FPGA_IRQ
 NoConn ~ 5700 2000
 NoConn ~ 4200 3900
 NoConn ~ 5700 5100
+Text GLabel 8150 3900 0    60   Input ~ 0
+SRXN01
+Text GLabel 8650 3700 2    60   Input ~ 0
+SRXP10
+Text GLabel 8650 3600 2    60   Input ~ 0
+STXP11
+Text GLabel 8650 4000 2    60   Input ~ 0
+SRXP00
+Text GLabel 8650 3800 2    60   Input ~ 0
+SRCLKP
+Text GLabel 8150 3800 0    60   Input ~ 0
+SRCLKN
+Text GLabel 8150 4000 0    60   Input ~ 0
+SRXN00
+Text GLabel 8150 3600 0    60   Input ~ 0
+STXN11
+Text GLabel 8150 3700 0    60   Input ~ 0
+SRXN10
+Text GLabel 8650 3900 2    60   Input ~ 0
+SRXP01
 $EndSCHEMATC
