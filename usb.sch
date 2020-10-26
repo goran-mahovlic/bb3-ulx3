@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ulx3s-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -584,4 +583,72 @@ SPI2_TO_FPGA_CLK
 NoConn ~ 10150 1950
 NoConn ~ 10150 2450
 NoConn ~ 10150 2650
+$Comp
+L antena:Jumper_NC_Small JP?
+U 1 1 5FA6E3AF
+P 7550 4650
+AR Path="/58D6D507/5FA6E3AF" Ref="JP?"  Part="1" 
+AR Path="/58D6BF46/5FA6E3AF" Ref="JP1"  Part="1" 
+F 0 "JP1" H 7550 4862 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 7550 4771 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7550 4650 50  0001 C CNN
+F 3 "~" H 7550 4650 50  0001 C CNN
+	1    7550 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antena:Jumper_NC_Small JP?
+U 1 1 5FA6E3B5
+P 7550 4950
+AR Path="/58D6D507/5FA6E3B5" Ref="JP?"  Part="1" 
+AR Path="/58D6BF46/5FA6E3B5" Ref="JP2"  Part="1" 
+F 0 "JP2" H 7550 5162 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 7550 5071 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7550 4950 50  0001 C CNN
+F 3 "~" H 7550 4950 50  0001 C CNN
+	1    7550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L antena:Jumper_NC_Small JP?
+U 1 1 5FA6E3BB
+P 7550 5250
+AR Path="/58D6D507/5FA6E3BB" Ref="JP?"  Part="1" 
+AR Path="/58D6BF46/5FA6E3BB" Ref="JP3"  Part="1" 
+F 0 "JP3" H 7550 5462 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 7550 5371 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7550 5250 50  0001 C CNN
+F 3 "~" H 7550 5250 50  0001 C CNN
+	1    7550 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antena:Jumper_NC_Small JP?
+U 1 1 5FA6E3C1
+P 7550 5550
+AR Path="/58D6D507/5FA6E3C1" Ref="JP?"  Part="1" 
+AR Path="/58D6BF46/5FA6E3C1" Ref="JP4"  Part="1" 
+F 0 "JP4" H 7550 5762 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 7550 5671 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7550 5550 50  0001 C CNN
+F 3 "~" H 7550 5550 50  0001 C CNN
+	1    7550 5550
+	1    0    0    -1  
+$EndComp
+Text GLabel 7450 4650 0    50   BiDi ~ 0
+SPI2_TO_FPGA_MISO
+Text GLabel 7450 4950 0    50   BiDi ~ 0
+SPI2_TO_FPGA_MOSI
+Text GLabel 7450 5250 0    50   BiDi ~ 0
+SPI2_TO_FPGA_CLK
+Text GLabel 7450 5550 0    50   BiDi ~ 0
+DOUT2
+Text GLabel 7650 5250 2    60   Input ~ 0
+JTAG_TCK
+Text GLabel 7650 5550 2    60   Input ~ 0
+JTAG_TMS
+Text GLabel 7650 4650 2    60   Input ~ 0
+JTAG_TDI
+Text GLabel 7650 4950 2    60   Input ~ 0
+JTAG_TDO
 $EndSCHEMATC

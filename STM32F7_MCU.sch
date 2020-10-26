@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ulx3s-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr User 12325 9925
 encoding utf-8
@@ -72,8 +71,6 @@ Text GLabel 2300 5500 0    50   BiDi ~ 0
 ETH_TXD0
 Text GLabel 2300 5600 0    50   BiDi ~ 0
 ETH_TXD1
-Text GLabel 2300 5700 0    50   BiDi ~ 0
-SPI2_TO_FPGA_MISO
 Text GLabel 3650 2600 2    50   BiDi ~ 0
 LTDC_TO_FPGA_R5
 Text GLabel 3650 2700 2    50   BiDi ~ 0
@@ -96,8 +93,6 @@ Text GLabel 3650 3500 2    50   BiDi ~ 0
 MCLK_25
 Text GLabel 3650 3800 2    50   BiDi ~ 0
 SDMMC1_TO_FPGA_CK
-Text GLabel 3650 3900 2    50   BiDi ~ 0
-DIN2
 Text GLabel 1850 4800 0    50   BiDi ~ 0
 DOUT2
 Text GLabel 3650 4500 2    50   BiDi ~ 0
@@ -2367,4 +2362,8 @@ Text GLabel 7700 4300 2    60   Input ~ 0
 CLK_TO_STM32
 Wire Wire Line
 	7100 4300 7700 4300
+Text GLabel 2300 5700 0    50   BiDi ~ 0
+SPI2_TO_FPGA_MISO
+Text GLabel 3650 3900 2    50   BiDi ~ 0
+DIN2
 $EndSCHEMATC
